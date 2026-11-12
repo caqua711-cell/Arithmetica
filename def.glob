@@ -1,0 +1,97 @@
+DIGEST 4bdfcec9b7e8456508c11424ede8dc58
+Fdef
+ind 10:12 <> nat
+constr 27:27 <> O
+constr 38:38 <> S
+R31:33 def <> nat:1 ind
+R45:48 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42:44 def <> nat:1 ind
+R49:51 def <> nat:1 ind
+scheme 10:12 <> nat_rect
+scheme 10:12 <> nat_ind
+scheme 10:12 <> nat_rec
+scheme 10:12 <> nat_sind
+def 64:66 <> add
+R75:77 def <> nat ind
+binder 69:69 <> x:3
+binder 71:71 <> y:4
+R82:84 def <> nat ind
+R96:96 def <> x:3 var
+R106:106 def <> O constr
+R111:111 def <> y:4 var
+R116:116 def <> S constr
+R123:123 def <> S constr
+R126:128 def <> add:5 def
+R132:132 def <> y:4 var
+R154:156 def <> add def
+not 147:147 <> :::x_'+'_x
+def 203:206 <> mult
+R215:217 def <> nat ind
+binder 209:209 <> x:7
+binder 211:211 <> y:8
+R222:224 def <> nat ind
+R236:236 def <> x:7 var
+R246:246 def <> O constr
+R251:251 def <> O constr
+R256:256 def <> S constr
+R263:265 def <> add def
+R267:267 def <> y:8 var
+R270:273 def <> mult:9 def
+R277:277 def <> y:8 var
+R299:302 def <> mult def
+not 292:292 <> :::x_'*'_x
+ind 350:351 <> le
+constr 380:391 <> le_refl_rule
+constr 421:432 <> le_step_rule
+R358:361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R355:357 def <> nat ind
+R365:368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R362:364 def <> nat ind
+R406:408 def <> nat ind
+binder 402:402 <> x:13
+R411:412 def <> le:11 ind
+R416:416 def <> x:13 var
+R414:414 def <> x:13 var
+R449:451 def <> nat ind
+binder 443:443 <> x:14
+binder 445:445 <> y:15
+R460:463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R454:455 def <> le:11 ind
+R459:459 def <> y:15 var
+R457:457 def <> x:14 var
+R464:465 def <> le:11 ind
+R470:470 def <> S constr
+R472:472 def <> y:15 var
+R467:467 def <> x:14 var
+scheme 350:351 <> le_ind
+scheme 350:351 <> le_sind
+def 488:489 <> lt
+R498:500 def <> nat ind
+binder 492:492 <> x:16
+binder 494:494 <> y:17
+R513:514 def <> le ind
+R517:517 def <> S constr
+R519:519 def <> x:16 var
+R522:522 def <> y:17 var
+def 536:537 <> ge
+R546:548 def <> nat ind
+binder 540:540 <> x:18
+binder 542:542 <> y:19
+R561:562 def <> le ind
+R564:564 def <> y:19 var
+R566:566 def <> x:18 var
+def 580:581 <> gt
+R590:592 def <> nat ind
+binder 584:584 <> x:20
+binder 586:586 <> y:21
+R605:606 def <> lt def
+R608:608 def <> y:21 var
+R610:610 def <> x:20 var
+R628:629 def <> le ind
+not 620:620 <> :::x_'<='_x
+R677:678 def <> lt def
+not 670:670 <> :::x_'<'_x
+R727:728 def <> ge def
+not 719:719 <> :::x_'>='_x
+R776:777 def <> gt def
+not 769:769 <> :::x_'>'_x

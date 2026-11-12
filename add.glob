@@ -1,0 +1,4082 @@
+DIGEST f3fd854ec054a128756885eea21720df
+Fadd
+R15:17 def <> <> lib
+prf 27:33 <> add_0_r
+R48:50 def <> nat ind
+binder 44:44 <> x:1
+R58:60 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54:56 def <> :::x_'+'_x not
+R53:53 add <> x:1 var
+R57:57 def <> O constr
+R61:61 add <> x:1 var
+prf 168:174 <> add_0_l
+R189:191 def <> nat ind
+binder 185:185 <> x:2
+R199:201 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R195:197 def <> :::x_'+'_x not
+R194:194 def <> O constr
+R198:198 add <> x:2 var
+R202:202 add <> x:2 var
+prf 249:258 <> add_succ_l
+R275:277 def <> nat ind
+binder 269:269 <> x:3
+binder 271:271 <> y:4
+R287:289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R283:285 def <> :::x_'+'_x not
+R280:280 def <> S constr
+R282:282 add <> x:3 var
+R286:286 add <> y:4 var
+R290:290 def <> S constr
+R294:296 def <> :::x_'+'_x not
+R293:293 add <> x:3 var
+R297:297 add <> y:4 var
+prf 347:356 <> add_succ_r
+R373:375 def <> nat ind
+binder 367:367 <> x:5
+binder 369:369 <> y:6
+R385:387 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R379:381 def <> :::x_'+'_x not
+R378:378 add <> x:5 var
+R382:382 def <> S constr
+R384:384 add <> y:6 var
+R388:388 def <> S constr
+R392:394 def <> :::x_'+'_x not
+R391:391 add <> x:5 var
+R395:395 add <> y:6 var
+prf 540:547 <> add_comm
+R564:566 def <> nat ind
+binder 558:558 <> x:7
+binder 560:560 <> y:8
+R574:576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R570:572 def <> :::x_'+'_x not
+R569:569 add <> x:7 var
+R573:573 add <> y:8 var
+R578:580 def <> :::x_'+'_x not
+R577:577 add <> y:8 var
+R581:581 add <> x:7 var
+R663:669 add <> add_0_r thm
+R663:669 add <> add_0_r thm
+R663:669 add <> add_0_r thm
+R738:747 add <> add_succ_r thm
+R738:747 add <> add_succ_r thm
+R738:747 add <> add_succ_r thm
+prf 778:786 <> add_assoc
+R805:807 def <> nat ind
+binder 797:797 <> x:9
+binder 799:799 <> y:10
+binder 801:801 <> z:11
+R821:823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R811:814 def <> :::x_'+'_x not
+R820:820 def <> :::x_'+'_x not
+R810:810 add <> x:9 var
+R816:818 def <> :::x_'+'_x not
+R815:815 add <> y:10 var
+R819:819 add <> z:11 var
+R824:824 def <> :::x_'+'_x not
+R830:833 def <> :::x_'+'_x not
+R826:828 def <> :::x_'+'_x not
+R825:825 add <> x:9 var
+R829:829 add <> y:10 var
+R834:834 add <> z:11 var
+prf 982:994 <> add_succ_succ
+R1011:1013 def <> nat ind
+binder 1005:1005 <> x:12
+binder 1007:1007 <> y:13
+R1025:1027 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1019:1021 def <> :::x_'+'_x not
+R1016:1016 def <> S constr
+R1018:1018 add <> x:12 var
+R1022:1022 def <> S constr
+R1024:1024 add <> y:13 var
+R1028:1028 def <> S constr
+R1031:1031 def <> S constr
+R1035:1037 def <> :::x_'+'_x not
+R1034:1034 add <> x:12 var
+R1038:1038 add <> y:13 var
+R1072:1081 add <> add_succ_l thm
+R1072:1081 add <> add_succ_l thm
+R1072:1081 add <> add_succ_l thm
+R1093:1102 add <> add_succ_r thm
+R1093:1102 add <> add_succ_r thm
+R1093:1102 add <> add_succ_r thm
+prf 1131:1142 <> add_cancel_l
+R1161:1163 def <> nat ind
+binder 1153:1153 <> x:14
+binder 1155:1155 <> y:15
+binder 1157:1157 <> z:16
+R1179:1182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1171:1173 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1167:1169 def <> :::x_'+'_x not
+R1166:1166 add <> x:14 var
+R1170:1170 add <> y:15 var
+R1175:1177 def <> :::x_'+'_x not
+R1174:1174 add <> x:14 var
+R1178:1178 add <> z:16 var
+R1184:1186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1183:1183 add <> y:15 var
+R1187:1187 add <> z:16 var
+prf 1374:1385 <> add_cancel_r
+R1404:1406 def <> nat ind
+binder 1396:1396 <> x:17
+binder 1398:1398 <> y:18
+binder 1400:1400 <> z:19
+R1422:1425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1414:1416 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1410:1412 def <> :::x_'+'_x not
+R1409:1409 add <> x:17 var
+R1413:1413 add <> z:19 var
+R1418:1420 def <> :::x_'+'_x not
+R1417:1417 add <> y:18 var
+R1421:1421 add <> z:19 var
+R1427:1429 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1426:1426 add <> x:17 var
+R1430:1430 add <> y:18 var
+R1470:1477 add <> add_comm thm
+R1470:1477 add <> add_comm thm
+R1470:1477 add <> add_comm thm
+R1503:1510 add <> add_comm thm
+R1503:1510 add <> add_comm thm
+R1503:1510 add <> add_comm thm
+R1531:1542 add <> add_cancel_l thm
+R1531:1542 add <> add_cancel_l thm
+prf 1574:1581 <> add_eq_O
+R1598:1600 def <> nat ind
+binder 1592:1592 <> x:20
+binder 1594:1594 <> y:21
+R1612:1615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1608:1610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1604:1606 def <> :::x_'+'_x not
+R1603:1603 add <> x:20 var
+R1607:1607 add <> y:21 var
+R1611:1611 def <> O constr
+R1621:1624 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1617:1619 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1616:1616 add <> x:20 var
+R1620:1620 def <> O constr
+R1626:1628 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1625:1625 add <> y:21 var
+R1629:1629 def <> O constr
+prf 1810:1822 <> add_eq_self_r
+R1839:1841 def <> nat ind
+binder 1833:1833 <> x:22
+binder 1835:1835 <> y:23
+R1853:1856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1849:1851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1845:1847 def <> :::x_'+'_x not
+R1844:1844 add <> x:22 var
+R1848:1848 add <> y:23 var
+R1852:1852 add <> x:22 var
+R1858:1860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1857:1857 add <> y:23 var
+R1861:1861 def <> O constr
+prf 2044:2056 <> add_eq_self_l
+R2073:2075 def <> nat ind
+binder 2067:2067 <> x:24
+binder 2069:2069 <> y:25
+R2087:2090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2083:2085 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2079:2081 def <> :::x_'+'_x not
+R2078:2078 add <> x:24 var
+R2082:2082 add <> y:25 var
+R2086:2086 add <> y:25 var
+R2092:2094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2091:2091 add <> x:24 var
+R2095:2095 def <> O constr
+R2129:2136 add <> add_comm thm
+R2129:2136 add <> add_comm thm
+R2129:2136 add <> add_comm thm
+R2151:2163 add <> add_eq_self_r thm
+R2151:2163 add <> add_eq_self_r thm
+prf 2193:2205 <> add_left_comm
+R2224:2226 def <> nat ind
+binder 2216:2216 <> x:26
+binder 2218:2218 <> y:27
+binder 2220:2220 <> z:28
+R2240:2242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2230:2233 def <> :::x_'+'_x not
+R2239:2239 def <> :::x_'+'_x not
+R2229:2229 add <> x:26 var
+R2235:2237 def <> :::x_'+'_x not
+R2234:2234 add <> y:27 var
+R2238:2238 add <> z:28 var
+R2244:2247 def <> :::x_'+'_x not
+R2253:2253 def <> :::x_'+'_x not
+R2243:2243 add <> y:27 var
+R2249:2251 def <> :::x_'+'_x not
+R2248:2248 add <> x:26 var
+R2252:2252 add <> z:28 var
+R2287:2295 add <> add_assoc thm
+R2287:2295 add <> add_assoc thm
+R2287:2295 add <> add_assoc thm
+R2308:2315 add <> add_comm thm
+R2308:2315 add <> add_comm thm
+R2308:2315 add <> add_comm thm
+R2335:2343 add <> add_assoc thm
+R2335:2343 add <> add_assoc thm
+R2335:2343 add <> add_assoc thm
+prf 2372:2385 <> add_right_comm
+R2404:2406 def <> nat ind
+binder 2396:2396 <> x:29
+binder 2398:2398 <> y:30
+binder 2400:2400 <> z:31
+R2420:2422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2409:2409 def <> :::x_'+'_x not
+R2415:2418 def <> :::x_'+'_x not
+R2411:2413 def <> :::x_'+'_x not
+R2410:2410 add <> x:29 var
+R2414:2414 add <> y:30 var
+R2419:2419 add <> z:31 var
+R2423:2423 def <> :::x_'+'_x not
+R2429:2432 def <> :::x_'+'_x not
+R2425:2427 def <> :::x_'+'_x not
+R2424:2424 add <> x:29 var
+R2428:2428 add <> z:31 var
+R2433:2433 add <> y:30 var
+R2470:2478 add <> add_assoc thm
+R2470:2478 add <> add_assoc thm
+R2470:2478 add <> add_assoc thm
+R2491:2498 add <> add_comm thm
+R2491:2498 add <> add_comm thm
+R2491:2498 add <> add_comm thm
+R2515:2523 add <> add_assoc thm
+R2515:2523 add <> add_assoc thm
+R2515:2523 add <> add_assoc thm
+prf 2552:2568 <> add_succ_cancel_l
+R2587:2589 def <> nat ind
+binder 2579:2579 <> x:32
+binder 2581:2581 <> y:33
+binder 2583:2583 <> z:34
+R2609:2612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2599:2601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2595:2597 def <> :::x_'+'_x not
+R2592:2592 def <> S constr
+R2594:2594 add <> x:32 var
+R2598:2598 add <> z:34 var
+R2605:2607 def <> :::x_'+'_x not
+R2602:2602 def <> S constr
+R2604:2604 add <> y:33 var
+R2608:2608 add <> z:34 var
+R2614:2616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2613:2613 add <> x:32 var
+R2617:2617 add <> y:33 var
+R2686:2697 add <> add_cancel_r thm
+R2686:2697 add <> add_cancel_r thm
+prf 2731:2747 <> add_succ_cancel_r
+R2766:2768 def <> nat ind
+binder 2758:2758 <> x:35
+binder 2760:2760 <> y:36
+binder 2762:2762 <> z:37
+R2788:2791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2778:2780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2772:2774 def <> :::x_'+'_x not
+R2771:2771 add <> x:35 var
+R2775:2775 def <> S constr
+R2777:2777 add <> y:36 var
+R2782:2784 def <> :::x_'+'_x not
+R2781:2781 add <> x:35 var
+R2785:2785 def <> S constr
+R2787:2787 add <> z:37 var
+R2793:2795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2792:2792 add <> y:36 var
+R2796:2796 add <> z:37 var
+R2833:2842 add <> add_succ_r thm
+R2833:2842 add <> add_succ_r thm
+R2833:2842 add <> add_succ_r thm
+R2865:2874 add <> add_succ_r thm
+R2865:2874 add <> add_succ_r thm
+R2865:2874 add <> add_succ_r thm
+R2916:2927 add <> add_cancel_l thm
+R2916:2927 add <> add_cancel_l thm
+prf 2961:2977 <> add_eq_self_iff_r
+R2994:2996 def <> nat ind
+binder 2988:2988 <> x:38
+binder 2990:2990 <> y:39
+R3008:3012 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3004:3006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3000:3002 def <> :::x_'+'_x not
+R2999:2999 add <> x:38 var
+R3003:3003 add <> y:39 var
+R3007:3007 add <> x:38 var
+R3014:3016 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3013:3013 add <> y:39 var
+R3017:3017 def <> O constr
+R3057:3069 add <> add_eq_self_r thm
+R3057:3069 add <> add_eq_self_r thm
+R3108:3114 add <> add_0_r thm
+R3108:3114 add <> add_0_r thm
+prf 3129:3145 <> add_eq_self_iff_l
+R3162:3164 def <> nat ind
+binder 3156:3156 <> x:40
+binder 3158:3158 <> y:41
+R3176:3180 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3172:3174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3168:3170 def <> :::x_'+'_x not
+R3167:3167 add <> x:40 var
+R3171:3171 add <> y:41 var
+R3175:3175 add <> y:41 var
+R3182:3184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3181:3181 add <> x:40 var
+R3185:3185 def <> O constr
+R3225:3237 add <> add_eq_self_l thm
+R3225:3237 add <> add_eq_self_l thm
+R3276:3282 add <> add_0_l thm
+R3276:3282 add <> add_0_l thm
+prf 3297:3308 <> add_eq_O_iff
+R3325:3327 def <> nat ind
+binder 3319:3319 <> x:42
+binder 3321:3321 <> y:43
+R3339:3343 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3335:3337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3331:3333 def <> :::x_'+'_x not
+R3330:3330 add <> x:42 var
+R3334:3334 add <> y:43 var
+R3338:3338 def <> O constr
+R3349:3352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3345:3347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3344:3344 add <> x:42 var
+R3348:3348 def <> O constr
+R3354:3356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3353:3353 add <> y:43 var
+R3357:3357 def <> O constr
+R3397:3404 add <> add_eq_O thm
+R3397:3404 add <> add_eq_O thm
+prf 3484:3499 <> add_cancel_l_iff
+R3518:3520 def <> nat ind
+binder 3510:3510 <> x:44
+binder 3512:3512 <> y:45
+binder 3514:3514 <> z:46
+R3536:3540 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3528:3530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3524:3526 def <> :::x_'+'_x not
+R3523:3523 add <> x:44 var
+R3527:3527 add <> y:45 var
+R3532:3534 def <> :::x_'+'_x not
+R3531:3531 add <> x:44 var
+R3535:3535 add <> z:46 var
+R3542:3544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3541:3541 add <> y:45 var
+R3545:3545 add <> z:46 var
+R3587:3598 add <> add_cancel_l thm
+R3587:3598 add <> add_cancel_l thm
+prf 3656:3671 <> add_cancel_r_iff
+R3690:3692 def <> nat ind
+binder 3682:3682 <> x:47
+binder 3684:3684 <> y:48
+binder 3686:3686 <> z:49
+R3708:3712 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3700:3702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3696:3698 def <> :::x_'+'_x not
+R3695:3695 add <> x:47 var
+R3699:3699 add <> z:49 var
+R3704:3706 def <> :::x_'+'_x not
+R3703:3703 add <> y:48 var
+R3707:3707 add <> z:49 var
+R3714:3716 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3713:3713 add <> x:47 var
+R3717:3717 add <> y:48 var
+R3759:3770 add <> add_cancel_r thm
+R3759:3770 add <> add_cancel_r thm
+prf 3828:3848 <> add_succ_cancel_l_iff
+R3867:3869 def <> nat ind
+binder 3859:3859 <> x:50
+binder 3861:3861 <> y:51
+binder 3863:3863 <> z:52
+R3891:3895 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3881:3883 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3877:3879 def <> :::x_'+'_x not
+R3874:3874 def <> S constr
+R3876:3876 add <> x:50 var
+R3880:3880 add <> z:52 var
+R3887:3889 def <> :::x_'+'_x not
+R3884:3884 def <> S constr
+R3886:3886 add <> y:51 var
+R3890:3890 add <> z:52 var
+R3897:3899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3896:3896 add <> x:50 var
+R3900:3900 add <> y:51 var
+R3942:3958 add <> add_succ_cancel_l thm
+R3942:3958 add <> add_succ_cancel_l thm
+prf 4016:4036 <> add_succ_cancel_r_iff
+R4055:4057 def <> nat ind
+binder 4047:4047 <> x:53
+binder 4049:4049 <> y:54
+binder 4051:4051 <> z:55
+R4079:4083 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4069:4071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4063:4065 def <> :::x_'+'_x not
+R4062:4062 add <> x:53 var
+R4066:4066 def <> S constr
+R4068:4068 add <> y:54 var
+R4073:4075 def <> :::x_'+'_x not
+R4072:4072 add <> x:53 var
+R4076:4076 def <> S constr
+R4078:4078 add <> z:55 var
+R4085:4087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4084:4084 add <> y:54 var
+R4088:4088 add <> z:55 var
+R4130:4146 add <> add_succ_cancel_r thm
+R4130:4146 add <> add_succ_cancel_r thm
+prf 4204:4225 <> add_succ_l_eq_succ_iff
+R4244:4246 def <> nat ind
+binder 4236:4236 <> x:56
+binder 4238:4238 <> y:57
+binder 4240:4240 <> z:58
+R4264:4268 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4258:4260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4254:4256 def <> :::x_'+'_x not
+R4251:4251 def <> S constr
+R4253:4253 add <> x:56 var
+R4257:4257 add <> y:57 var
+R4261:4261 def <> S constr
+R4263:4263 add <> z:58 var
+R4274:4276 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4270:4272 def <> :::x_'+'_x not
+R4269:4269 add <> x:56 var
+R4273:4273 add <> y:57 var
+R4277:4277 add <> z:58 var
+R4311:4320 add <> add_succ_l thm
+R4311:4320 add <> add_succ_l thm
+R4311:4320 add <> add_succ_l thm
+prf 4432:4453 <> add_succ_r_eq_succ_iff
+R4472:4474 def <> nat ind
+binder 4464:4464 <> x:59
+binder 4466:4466 <> y:60
+binder 4468:4468 <> z:61
+R4492:4496 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4486:4488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4480:4482 def <> :::x_'+'_x not
+R4479:4479 add <> x:59 var
+R4483:4483 def <> S constr
+R4485:4485 add <> y:60 var
+R4489:4489 def <> S constr
+R4491:4491 add <> z:61 var
+R4502:4504 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4498:4500 def <> :::x_'+'_x not
+R4497:4497 add <> x:59 var
+R4501:4501 add <> y:60 var
+R4505:4505 add <> z:61 var
+R4539:4548 add <> add_succ_r thm
+R4539:4548 add <> add_succ_r thm
+R4539:4548 add <> add_succ_r thm
+prf 4660:4674 <> add_succ_succ_l
+R4691:4693 def <> nat ind
+binder 4685:4685 <> x:62
+binder 4687:4687 <> y:63
+R4709:4711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4705:4707 def <> :::x_'+'_x not
+R4698:4698 def <> S constr
+R4701:4701 def <> S constr
+R4703:4703 add <> x:62 var
+R4708:4708 add <> y:63 var
+R4712:4712 def <> S constr
+R4715:4715 def <> S constr
+R4719:4721 def <> :::x_'+'_x not
+R4718:4718 add <> x:62 var
+R4722:4722 add <> y:63 var
+R4756:4765 add <> add_succ_l thm
+R4756:4765 add <> add_succ_l thm
+R4756:4765 add <> add_succ_l thm
+R4777:4786 add <> add_succ_l thm
+R4777:4786 add <> add_succ_l thm
+R4777:4786 add <> add_succ_l thm
+prf 4815:4829 <> add_succ_succ_r
+R4846:4848 def <> nat ind
+binder 4840:4840 <> x:64
+binder 4842:4842 <> y:65
+R4864:4866 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4854:4856 def <> :::x_'+'_x not
+R4853:4853 add <> x:64 var
+R4857:4857 def <> S constr
+R4860:4860 def <> S constr
+R4862:4862 add <> y:65 var
+R4867:4867 def <> S constr
+R4870:4870 def <> S constr
+R4874:4876 def <> :::x_'+'_x not
+R4873:4873 add <> x:64 var
+R4877:4877 add <> y:65 var
+R4911:4920 add <> add_succ_r thm
+R4911:4920 add <> add_succ_r thm
+R4911:4920 add <> add_succ_r thm
+R4932:4941 add <> add_succ_r thm
+R4932:4941 add <> add_succ_r thm
+R4932:4941 add <> add_succ_r thm
+prf 4970:4981 <> add_comm_iff
+R5000:5002 def <> nat ind
+binder 4992:4992 <> x:66
+binder 4994:4994 <> y:67
+binder 4996:4996 <> z:68
+R5014:5018 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5010:5012 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5006:5008 def <> :::x_'+'_x not
+R5005:5005 add <> x:66 var
+R5009:5009 add <> y:67 var
+R5013:5013 add <> z:68 var
+R5024:5026 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5020:5022 def <> :::x_'+'_x not
+R5019:5019 add <> y:67 var
+R5023:5023 add <> x:66 var
+R5027:5027 add <> z:68 var
+R5085:5092 add <> add_comm thm
+R5085:5092 add <> add_comm thm
+R5085:5092 add <> add_comm thm
+R5137:5144 add <> add_comm thm
+R5137:5144 add <> add_comm thm
+R5137:5144 add <> add_comm thm
+prf 5176:5189 <> add_eq_one_iff
+R5206:5208 def <> nat ind
+binder 5200:5200 <> x:69
+binder 5202:5202 <> y:70
+R5224:5228 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5218:5220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5214:5216 def <> :::x_'+'_x not
+R5213:5213 add <> x:69 var
+R5217:5217 add <> y:70 var
+R5221:5221 def <> S constr
+R5223:5223 def <> O constr
+R5229:5229 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5246:5251 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5268:5268 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5235:5238 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5231:5233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5230:5230 add <> x:69 var
+R5234:5234 def <> O constr
+R5240:5242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5239:5239 add <> y:70 var
+R5243:5243 def <> S constr
+R5245:5245 def <> O constr
+R5259:5262 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5253:5255 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5252:5252 add <> x:69 var
+R5256:5256 def <> S constr
+R5258:5258 def <> O constr
+R5264:5266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5263:5263 add <> y:70 var
+R5267:5267 def <> O constr
+R5477:5484 add <> add_eq_O thm
+R5477:5484 add <> add_eq_O thm
+prf 5735:5747 <> add_neq_O_iff
+R5764:5766 def <> nat ind
+binder 5758:5758 <> x:71
+binder 5760:5760 <> y:72
+R5781:5785 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5776:5779 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5772:5774 def <> :::x_'+'_x not
+R5771:5771 add <> x:71 var
+R5775:5775 add <> y:72 var
+R5780:5780 def <> O constr
+R5792:5795 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5787:5790 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5786:5786 add <> x:71 var
+R5791:5791 def <> O constr
+R5797:5800 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5796:5796 add <> y:72 var
+R5801:5801 def <> O constr
+R6032:6039 add <> add_eq_O thm
+R6032:6039 add <> add_eq_O thm
+R6127:6134 add <> add_eq_O thm
+R6127:6134 add <> add_eq_O thm
+prf 6223:6239 <> add_comm_cancel_l
+R6258:6260 def <> nat ind
+binder 6250:6250 <> x:73
+binder 6252:6252 <> y:74
+binder 6254:6254 <> z:75
+R6276:6279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6268:6270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6264:6266 def <> :::x_'+'_x not
+R6263:6263 add <> x:73 var
+R6267:6267 add <> y:74 var
+R6272:6274 def <> :::x_'+'_x not
+R6271:6271 add <> z:75 var
+R6275:6275 add <> x:73 var
+R6281:6283 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6280:6280 add <> y:74 var
+R6284:6284 add <> z:75 var
+R6321:6328 add <> add_comm thm
+R6321:6328 add <> add_comm thm
+R6321:6328 add <> add_comm thm
+R6349:6360 add <> add_cancel_l thm
+R6349:6360 add <> add_cancel_l thm
+prf 6392:6408 <> add_comm_cancel_r
+R6427:6429 def <> nat ind
+binder 6419:6419 <> x:76
+binder 6421:6421 <> y:77
+binder 6423:6423 <> z:78
+R6445:6448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6437:6439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6433:6435 def <> :::x_'+'_x not
+R6432:6432 add <> x:76 var
+R6436:6436 add <> y:77 var
+R6441:6443 def <> :::x_'+'_x not
+R6440:6440 add <> y:77 var
+R6444:6444 add <> z:78 var
+R6450:6452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6449:6449 add <> x:76 var
+R6453:6453 add <> z:78 var
+R6490:6497 add <> add_comm thm
+R6490:6497 add <> add_comm thm
+R6490:6497 add <> add_comm thm
+R6518:6529 add <> add_cancel_l thm
+R6518:6529 add <> add_cancel_l thm
+prf 6561:6573 <> add_assoc_iff
+R6594:6596 def <> nat ind
+binder 6584:6584 <> x:79
+binder 6586:6586 <> y:80
+binder 6588:6588 <> z:81
+binder 6590:6590 <> w:82
+R6616:6620 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6612:6614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6602:6605 def <> :::x_'+'_x not
+R6611:6611 def <> :::x_'+'_x not
+R6601:6601 add <> x:79 var
+R6607:6609 def <> :::x_'+'_x not
+R6606:6606 add <> y:80 var
+R6610:6610 add <> z:81 var
+R6615:6615 add <> w:82 var
+R6632:6634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6621:6621 def <> :::x_'+'_x not
+R6627:6630 def <> :::x_'+'_x not
+R6623:6625 def <> :::x_'+'_x not
+R6622:6622 add <> x:79 var
+R6626:6626 add <> y:80 var
+R6631:6631 add <> z:81 var
+R6635:6635 add <> w:82 var
+R6694:6702 add <> add_assoc thm
+R6694:6702 add <> add_assoc thm
+R6694:6702 add <> add_assoc thm
+R6749:6757 add <> add_assoc thm
+R6749:6757 add <> add_assoc thm
+R6749:6757 add <> add_assoc thm
+prf 6789:6805 <> add_left_comm_iff
+R6826:6828 def <> nat ind
+binder 6816:6816 <> x:83
+binder 6818:6818 <> y:84
+binder 6820:6820 <> z:85
+binder 6822:6822 <> w:86
+R6848:6852 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6844:6846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6834:6837 def <> :::x_'+'_x not
+R6843:6843 def <> :::x_'+'_x not
+R6833:6833 add <> x:83 var
+R6839:6841 def <> :::x_'+'_x not
+R6838:6838 add <> y:84 var
+R6842:6842 add <> z:85 var
+R6847:6847 add <> w:86 var
+R6864:6866 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6854:6857 def <> :::x_'+'_x not
+R6863:6863 def <> :::x_'+'_x not
+R6853:6853 add <> y:84 var
+R6859:6861 def <> :::x_'+'_x not
+R6858:6858 add <> x:83 var
+R6862:6862 add <> z:85 var
+R6867:6867 add <> w:86 var
+R6926:6938 add <> add_left_comm thm
+R6926:6938 add <> add_left_comm thm
+R6926:6938 add <> add_left_comm thm
+R6985:6997 add <> add_left_comm thm
+R6985:6997 add <> add_left_comm thm
+R6985:6997 add <> add_left_comm thm
+prf 7029:7046 <> add_right_comm_iff
+R7067:7069 def <> nat ind
+binder 7057:7057 <> x:87
+binder 7059:7059 <> y:88
+binder 7061:7061 <> z:89
+binder 7063:7063 <> w:90
+R7089:7093 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7085:7087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7074:7074 def <> :::x_'+'_x not
+R7080:7083 def <> :::x_'+'_x not
+R7076:7078 def <> :::x_'+'_x not
+R7075:7075 add <> x:87 var
+R7079:7079 add <> y:88 var
+R7084:7084 add <> z:89 var
+R7088:7088 add <> w:90 var
+R7105:7107 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7094:7094 def <> :::x_'+'_x not
+R7100:7103 def <> :::x_'+'_x not
+R7096:7098 def <> :::x_'+'_x not
+R7095:7095 add <> x:87 var
+R7099:7099 add <> z:89 var
+R7104:7104 add <> y:88 var
+R7108:7108 add <> w:90 var
+R7167:7180 add <> add_right_comm thm
+R7167:7180 add <> add_right_comm thm
+R7167:7180 add <> add_right_comm thm
+R7227:7240 add <> add_right_comm thm
+R7227:7240 add <> add_right_comm thm
+R7227:7240 add <> add_right_comm thm
+prf 7272:7284 <> add_succ_comm
+R7301:7303 def <> nat ind
+binder 7295:7295 <> x:91
+binder 7297:7297 <> y:92
+R7313:7315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7309:7311 def <> :::x_'+'_x not
+R7306:7306 def <> S constr
+R7308:7308 add <> x:91 var
+R7312:7312 add <> y:92 var
+R7317:7319 def <> :::x_'+'_x not
+R7316:7316 add <> x:91 var
+R7320:7320 def <> S constr
+R7322:7322 add <> y:92 var
+R7354:7363 add <> add_succ_l thm
+R7354:7363 add <> add_succ_l thm
+R7354:7363 add <> add_succ_l thm
+R7375:7384 add <> add_succ_r thm
+R7375:7384 add <> add_succ_r thm
+R7375:7384 add <> add_succ_r thm
+prf 7413:7426 <> add_two_succ_l
+R7445:7447 def <> nat ind
+binder 7437:7437 <> x:93
+binder 7439:7439 <> y:94
+binder 7441:7441 <> z:95
+R7467:7469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7452:7452 def <> :::x_'+'_x not
+R7462:7465 def <> :::x_'+'_x not
+R7456:7458 def <> :::x_'+'_x not
+R7453:7453 def <> S constr
+R7455:7455 add <> x:93 var
+R7459:7459 def <> S constr
+R7461:7461 add <> y:94 var
+R7466:7466 add <> z:95 var
+R7470:7470 def <> S constr
+R7473:7473 def <> S constr
+R7476:7476 def <> :::x_'+'_x not
+R7482:7485 def <> :::x_'+'_x not
+R7478:7480 def <> :::x_'+'_x not
+R7477:7477 add <> x:93 var
+R7481:7481 add <> y:94 var
+R7486:7486 add <> z:95 var
+R7522:7534 add <> add_succ_succ thm
+R7522:7534 add <> add_succ_succ thm
+R7522:7534 add <> add_succ_succ thm
+R7546:7555 add <> add_succ_l thm
+R7546:7555 add <> add_succ_l thm
+R7546:7555 add <> add_succ_l thm
+R7567:7576 add <> add_succ_l thm
+R7567:7576 add <> add_succ_l thm
+R7567:7576 add <> add_succ_l thm
+prf 7605:7618 <> add_two_succ_r
+R7637:7639 def <> nat ind
+binder 7629:7629 <> x:96
+binder 7631:7631 <> y:97
+binder 7633:7633 <> z:98
+R7659:7661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7644:7644 def <> :::x_'+'_x not
+R7652:7655 def <> :::x_'+'_x not
+R7646:7648 def <> :::x_'+'_x not
+R7645:7645 add <> x:96 var
+R7649:7649 def <> S constr
+R7651:7651 add <> y:97 var
+R7656:7656 def <> S constr
+R7658:7658 add <> z:98 var
+R7662:7662 def <> S constr
+R7665:7665 def <> S constr
+R7668:7668 def <> :::x_'+'_x not
+R7674:7677 def <> :::x_'+'_x not
+R7670:7672 def <> :::x_'+'_x not
+R7669:7669 add <> x:96 var
+R7673:7673 add <> y:97 var
+R7678:7678 add <> z:98 var
+R7714:7723 add <> add_succ_r thm
+R7714:7723 add <> add_succ_r thm
+R7714:7723 add <> add_succ_r thm
+R7735:7744 add <> add_succ_r thm
+R7735:7744 add <> add_succ_r thm
+R7735:7744 add <> add_succ_r thm
+prf 7773:7788 <> add_succ_group_l
+R7807:7809 def <> nat ind
+binder 7799:7799 <> x:99
+binder 7801:7801 <> y:100
+binder 7803:7803 <> z:101
+R7827:7829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7817:7820 def <> :::x_'+'_x not
+R7826:7826 def <> :::x_'+'_x not
+R7814:7814 def <> S constr
+R7816:7816 add <> x:99 var
+R7822:7824 def <> :::x_'+'_x not
+R7821:7821 add <> y:100 var
+R7825:7825 add <> z:101 var
+R7830:7830 def <> S constr
+R7834:7837 def <> :::x_'+'_x not
+R7843:7843 def <> :::x_'+'_x not
+R7833:7833 add <> x:99 var
+R7839:7841 def <> :::x_'+'_x not
+R7838:7838 add <> y:100 var
+R7842:7842 add <> z:101 var
+R7876:7885 add <> add_succ_l thm
+R7876:7885 add <> add_succ_l thm
+prf 7900:7915 <> add_succ_group_r
+R7934:7936 def <> nat ind
+binder 7926:7926 <> x:102
+binder 7928:7928 <> y:103
+binder 7930:7930 <> z:104
+R7954:7956 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7942:7945 def <> :::x_'+'_x not
+R7953:7953 def <> :::x_'+'_x not
+R7941:7941 add <> x:102 var
+R7947:7949 def <> :::x_'+'_x not
+R7946:7946 add <> y:103 var
+R7950:7950 def <> S constr
+R7952:7952 add <> z:104 var
+R7957:7957 def <> S constr
+R7961:7964 def <> :::x_'+'_x not
+R7970:7970 def <> :::x_'+'_x not
+R7960:7960 add <> x:102 var
+R7966:7968 def <> :::x_'+'_x not
+R7965:7965 add <> y:103 var
+R7969:7969 add <> z:104 var
+R8005:8014 add <> add_succ_r thm
+R8005:8014 add <> add_succ_r thm
+R8005:8014 add <> add_succ_r thm
+R8026:8035 add <> add_succ_r thm
+R8026:8035 add <> add_succ_r thm
+R8026:8035 add <> add_succ_r thm
+prf 8064:8080 <> add_succ_middle_l
+R8099:8101 def <> nat ind
+binder 8091:8091 <> x:105
+binder 8093:8093 <> y:106
+binder 8095:8095 <> z:107
+R8119:8121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8106:8106 def <> :::x_'+'_x not
+R8114:8117 def <> :::x_'+'_x not
+R8110:8112 def <> :::x_'+'_x not
+R8107:8107 def <> S constr
+R8109:8109 add <> x:105 var
+R8113:8113 add <> y:106 var
+R8118:8118 add <> z:107 var
+R8122:8122 def <> S constr
+R8125:8125 def <> :::x_'+'_x not
+R8131:8134 def <> :::x_'+'_x not
+R8127:8129 def <> :::x_'+'_x not
+R8126:8126 add <> x:105 var
+R8130:8130 add <> y:106 var
+R8135:8135 add <> z:107 var
+R8170:8179 add <> add_succ_l thm
+R8170:8179 add <> add_succ_l thm
+R8170:8179 add <> add_succ_l thm
+prf 8208:8224 <> add_succ_middle_r
+R8243:8245 def <> nat ind
+binder 8235:8235 <> x:108
+binder 8237:8237 <> y:109
+binder 8239:8239 <> z:110
+R8263:8265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8250:8250 def <> :::x_'+'_x not
+R8258:8261 def <> :::x_'+'_x not
+R8252:8254 def <> :::x_'+'_x not
+R8251:8251 add <> x:108 var
+R8255:8255 def <> S constr
+R8257:8257 add <> y:109 var
+R8262:8262 add <> z:110 var
+R8266:8266 def <> S constr
+R8269:8269 def <> :::x_'+'_x not
+R8275:8278 def <> :::x_'+'_x not
+R8271:8273 def <> :::x_'+'_x not
+R8270:8270 add <> x:108 var
+R8274:8274 add <> y:109 var
+R8279:8279 add <> z:110 var
+R8314:8323 add <> add_succ_r thm
+R8314:8323 add <> add_succ_r thm
+R8314:8323 add <> add_succ_r thm
+R8335:8344 add <> add_succ_l thm
+R8335:8344 add <> add_succ_l thm
+R8335:8344 add <> add_succ_l thm
+prf 8373:8392 <> add_succ_group_assoc
+R8411:8413 def <> nat ind
+binder 8403:8403 <> x:111
+binder 8405:8405 <> y:112
+binder 8407:8407 <> z:113
+R8431:8433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8419:8422 def <> :::x_'+'_x not
+R8430:8430 def <> :::x_'+'_x not
+R8418:8418 add <> x:111 var
+R8424:8426 def <> :::x_'+'_x not
+R8423:8423 add <> y:112 var
+R8427:8427 def <> S constr
+R8429:8429 add <> z:113 var
+R8434:8434 def <> S constr
+R8437:8437 def <> :::x_'+'_x not
+R8443:8446 def <> :::x_'+'_x not
+R8439:8441 def <> :::x_'+'_x not
+R8438:8438 add <> x:111 var
+R8442:8442 add <> y:112 var
+R8447:8447 add <> z:113 var
+R8482:8491 add <> add_succ_r thm
+R8482:8491 add <> add_succ_r thm
+R8482:8491 add <> add_succ_r thm
+R8503:8512 add <> add_succ_r thm
+R8503:8512 add <> add_succ_r thm
+R8503:8512 add <> add_succ_r thm
+R8524:8532 add <> add_assoc thm
+R8524:8532 add <> add_assoc thm
+R8524:8532 add <> add_assoc thm
+prf 8561:8573 <> add_self_eq_O
+R8588:8590 def <> nat ind
+binder 8584:8584 <> x:114
+R8602:8605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8598:8600 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8594:8596 def <> :::x_'+'_x not
+R8593:8593 add <> x:114 var
+R8597:8597 add <> x:114 var
+R8601:8601 def <> O constr
+R8607:8609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8606:8606 add <> x:114 var
+R8610:8610 def <> O constr
+R8640:8647 add <> add_eq_O thm
+R8640:8647 add <> add_eq_O thm
+prf 8701:8718 <> add_self_neq_O_iff
+R8733:8735 def <> nat ind
+binder 8729:8729 <> x:115
+R8748:8752 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8743:8746 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8739:8741 def <> :::x_'+'_x not
+R8738:8738 add <> x:115 var
+R8742:8742 add <> x:115 var
+R8747:8747 def <> O constr
+R8754:8757 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8753:8753 add <> x:115 var
+R8758:8758 def <> O constr
+R8873:8880 add <> add_eq_O thm
+R8873:8880 add <> add_eq_O thm
+prf 8956:8976 <> add_self_eq_one_false
+R8991:8993 def <> nat ind
+binder 8987:8987 <> x:116
+R9007:9010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9001:9003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8997:8999 def <> :::x_'+'_x not
+R8996:8996 add <> x:116 var
+R9000:9000 add <> x:116 var
+R9004:9004 def <> S constr
+R9006:9006 def <> O constr
+R9011:9015 Coq.Init.Logic <> False ind
+R9139:9146 add <> add_eq_O thm
+R9139:9146 add <> add_eq_O thm
+prf 9211:9229 <> add_self_eq_two_iff
+R9244:9246 def <> nat ind
+binder 9240:9240 <> x:117
+R9266:9270 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9256:9258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9252:9254 def <> :::x_'+'_x not
+R9251:9251 add <> x:117 var
+R9255:9255 add <> x:117 var
+R9259:9259 def <> S constr
+R9262:9262 def <> S constr
+R9264:9264 def <> O constr
+R9272:9274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9271:9271 add <> x:117 var
+R9275:9275 def <> S constr
+R9277:9277 def <> O constr
+R9432:9445 add <> add_eq_one_iff thm
+R9432:9445 add <> add_eq_one_iff thm
+prf 9609:9622 <> add_eq_two_iff
+R9639:9641 def <> nat ind
+binder 9633:9633 <> x:118
+binder 9635:9635 <> y:119
+R9661:9667 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9651:9653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9647:9649 def <> :::x_'+'_x not
+R9646:9646 add <> x:118 var
+R9650:9650 add <> y:119 var
+R9654:9654 def <> S constr
+R9657:9657 def <> S constr
+R9659:9659 def <> O constr
+R9668:9668 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9689:9695 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9674:9677 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9670:9672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9669:9669 add <> x:118 var
+R9673:9673 def <> O constr
+R9679:9681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9678:9678 add <> y:119 var
+R9682:9682 def <> S constr
+R9685:9685 def <> S constr
+R9687:9687 def <> O constr
+R9696:9696 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9715:9722 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9743:9743 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9704:9707 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9698:9700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9697:9697 add <> x:118 var
+R9701:9701 def <> S constr
+R9703:9703 def <> O constr
+R9709:9711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9708:9708 add <> y:119 var
+R9712:9712 def <> S constr
+R9714:9714 def <> O constr
+R9734:9737 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9724:9726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9723:9723 add <> x:118 var
+R9727:9727 def <> S constr
+R9730:9730 def <> S constr
+R9732:9732 def <> O constr
+R9739:9741 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9738:9738 add <> y:119 var
+R9742:9742 def <> O constr
+R9940:9953 add <> add_eq_one_iff thm
+R9940:9953 add <> add_eq_one_iff thm
+prf 10425:10436 <> add_eq_two_l
+R10453:10455 def <> nat ind
+binder 10447:10447 <> x:120
+binder 10449:10449 <> y:121
+R10475:10478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10465:10467 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10461:10463 def <> :::x_'+'_x not
+R10460:10460 add <> x:120 var
+R10464:10464 add <> y:121 var
+R10468:10468 def <> S constr
+R10471:10471 def <> S constr
+R10473:10473 def <> O constr
+R10484:10487 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10480:10482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10479:10479 add <> x:120 var
+R10483:10483 def <> O constr
+R10495:10498 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10489:10491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10488:10488 add <> x:120 var
+R10492:10492 def <> S constr
+R10494:10494 def <> O constr
+R10500:10502 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10499:10499 add <> x:120 var
+R10503:10503 def <> S constr
+R10506:10506 def <> S constr
+R10508:10508 def <> O constr
+R10541:10554 add <> add_eq_two_iff thm
+R10541:10554 add <> add_eq_two_iff thm
+prf 10706:10717 <> add_eq_two_r
+R10734:10736 def <> nat ind
+binder 10728:10728 <> x:122
+binder 10730:10730 <> y:123
+R10756:10759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10746:10748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10742:10744 def <> :::x_'+'_x not
+R10741:10741 add <> x:122 var
+R10745:10745 add <> y:123 var
+R10749:10749 def <> S constr
+R10752:10752 def <> S constr
+R10754:10754 def <> O constr
+R10765:10768 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10761:10763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10760:10760 add <> y:123 var
+R10764:10764 def <> O constr
+R10776:10779 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10770:10772 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10769:10769 add <> y:123 var
+R10773:10773 def <> S constr
+R10775:10775 def <> O constr
+R10781:10783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10780:10780 add <> y:123 var
+R10784:10784 def <> S constr
+R10787:10787 def <> S constr
+R10789:10789 def <> O constr
+R10822:10835 add <> add_eq_two_iff thm
+R10822:10835 add <> add_eq_two_iff thm
+prf 10987:11005 <> add_cancel_nested_l
+R11026:11028 def <> nat ind
+binder 11016:11016 <> x:124
+binder 11018:11018 <> y:125
+binder 11020:11020 <> z:126
+binder 11022:11022 <> w:127
+R11058:11061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11044:11046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11034:11037 def <> :::x_'+'_x not
+R11043:11043 def <> :::x_'+'_x not
+R11033:11033 add <> x:124 var
+R11039:11041 def <> :::x_'+'_x not
+R11038:11038 add <> y:125 var
+R11042:11042 add <> z:126 var
+R11048:11051 def <> :::x_'+'_x not
+R11057:11057 def <> :::x_'+'_x not
+R11047:11047 add <> x:124 var
+R11053:11055 def <> :::x_'+'_x not
+R11052:11052 add <> y:125 var
+R11056:11056 add <> w:127 var
+R11063:11065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11062:11062 add <> z:126 var
+R11066:11066 add <> w:127 var
+R11102:11113 add <> add_cancel_l thm
+R11102:11113 add <> add_cancel_l thm
+R11128:11139 add <> add_cancel_l thm
+R11128:11139 add <> add_cancel_l thm
+prf 11169:11187 <> add_cancel_nested_m
+R11208:11210 def <> nat ind
+binder 11198:11198 <> x:128
+binder 11200:11200 <> y:129
+binder 11202:11202 <> z:130
+binder 11204:11204 <> w:131
+R11240:11243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11226:11228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11216:11219 def <> :::x_'+'_x not
+R11225:11225 def <> :::x_'+'_x not
+R11215:11215 add <> x:128 var
+R11221:11223 def <> :::x_'+'_x not
+R11220:11220 add <> y:129 var
+R11224:11224 add <> z:130 var
+R11230:11233 def <> :::x_'+'_x not
+R11239:11239 def <> :::x_'+'_x not
+R11229:11229 add <> x:128 var
+R11235:11237 def <> :::x_'+'_x not
+R11234:11234 add <> w:131 var
+R11238:11238 add <> z:130 var
+R11245:11247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11244:11244 add <> y:129 var
+R11248:11248 add <> w:131 var
+R11284:11295 add <> add_cancel_l thm
+R11284:11295 add <> add_cancel_l thm
+R11310:11321 add <> add_cancel_r thm
+R11310:11321 add <> add_cancel_r thm
+prf 11351:11369 <> add_cancel_nested_r
+R11390:11392 def <> nat ind
+binder 11380:11380 <> x:132
+binder 11382:11382 <> y:133
+binder 11384:11384 <> z:134
+binder 11386:11386 <> w:135
+R11422:11425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11408:11410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11397:11397 def <> :::x_'+'_x not
+R11403:11406 def <> :::x_'+'_x not
+R11399:11401 def <> :::x_'+'_x not
+R11398:11398 add <> x:132 var
+R11402:11402 add <> y:133 var
+R11407:11407 add <> z:134 var
+R11411:11411 def <> :::x_'+'_x not
+R11417:11420 def <> :::x_'+'_x not
+R11413:11415 def <> :::x_'+'_x not
+R11412:11412 add <> x:132 var
+R11416:11416 add <> w:135 var
+R11421:11421 add <> z:134 var
+R11427:11429 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11426:11426 add <> y:133 var
+R11430:11430 add <> w:135 var
+R11466:11477 add <> add_cancel_r thm
+R11466:11477 add <> add_cancel_r thm
+R11492:11503 add <> add_cancel_l thm
+R11492:11503 add <> add_cancel_l thm
+prf 11533:11555 <> add_cancel_nested_outer
+R11576:11578 def <> nat ind
+binder 11566:11566 <> x:136
+binder 11568:11568 <> y:137
+binder 11570:11570 <> z:138
+binder 11572:11572 <> w:139
+R11608:11611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11594:11596 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11583:11583 def <> :::x_'+'_x not
+R11589:11592 def <> :::x_'+'_x not
+R11585:11587 def <> :::x_'+'_x not
+R11584:11584 add <> x:136 var
+R11588:11588 add <> y:137 var
+R11593:11593 add <> z:138 var
+R11597:11597 def <> :::x_'+'_x not
+R11603:11606 def <> :::x_'+'_x not
+R11599:11601 def <> :::x_'+'_x not
+R11598:11598 add <> w:139 var
+R11602:11602 add <> y:137 var
+R11607:11607 add <> z:138 var
+R11613:11615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11612:11612 add <> x:136 var
+R11616:11616 add <> w:139 var
+R11652:11663 add <> add_cancel_r thm
+R11652:11663 add <> add_cancel_r thm
+R11678:11689 add <> add_cancel_r thm
+R11678:11689 add <> add_cancel_r thm
+prf 11719:11739 <> add_cancel_four_first
+R11762:11764 def <> nat ind
+binder 11750:11750 <> x:140
+binder 11752:11752 <> y:141
+binder 11754:11754 <> z:142
+binder 11756:11756 <> w:143
+binder 11758:11758 <> v:144
+R11806:11809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11786:11788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11770:11773 def <> :::x_'+'_x not
+R11785:11785 def <> :::x_'+'_x not
+R11769:11769 add <> x:140 var
+R11775:11778 def <> :::x_'+'_x not
+R11784:11784 def <> :::x_'+'_x not
+R11774:11774 add <> y:141 var
+R11780:11782 def <> :::x_'+'_x not
+R11779:11779 add <> z:142 var
+R11783:11783 add <> w:143 var
+R11790:11793 def <> :::x_'+'_x not
+R11805:11805 def <> :::x_'+'_x not
+R11789:11789 add <> x:140 var
+R11795:11798 def <> :::x_'+'_x not
+R11804:11804 def <> :::x_'+'_x not
+R11794:11794 add <> v:144 var
+R11800:11802 def <> :::x_'+'_x not
+R11799:11799 add <> z:142 var
+R11803:11803 add <> w:143 var
+R11811:11813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11810:11810 add <> y:141 var
+R11814:11814 add <> v:144 var
+R11852:11863 add <> add_cancel_l thm
+R11852:11863 add <> add_cancel_l thm
+R11878:11889 add <> add_cancel_r thm
+R11878:11889 add <> add_cancel_r thm
+prf 11919:11940 <> add_cancel_four_second
+R11963:11965 def <> nat ind
+binder 11951:11951 <> x:145
+binder 11953:11953 <> y:146
+binder 11955:11955 <> z:147
+binder 11957:11957 <> w:148
+binder 11959:11959 <> v:149
+R12007:12010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11987:11989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11971:11974 def <> :::x_'+'_x not
+R11986:11986 def <> :::x_'+'_x not
+R11970:11970 add <> x:145 var
+R11976:11979 def <> :::x_'+'_x not
+R11985:11985 def <> :::x_'+'_x not
+R11975:11975 add <> y:146 var
+R11981:11983 def <> :::x_'+'_x not
+R11980:11980 add <> z:147 var
+R11984:11984 add <> w:148 var
+R11991:11994 def <> :::x_'+'_x not
+R12006:12006 def <> :::x_'+'_x not
+R11990:11990 add <> x:145 var
+R11996:11999 def <> :::x_'+'_x not
+R12005:12005 def <> :::x_'+'_x not
+R11995:11995 add <> y:146 var
+R12001:12003 def <> :::x_'+'_x not
+R12000:12000 add <> v:149 var
+R12004:12004 add <> w:148 var
+R12012:12014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12011:12011 add <> z:147 var
+R12015:12015 add <> v:149 var
+R12053:12064 add <> add_cancel_l thm
+R12053:12064 add <> add_cancel_l thm
+R12079:12090 add <> add_cancel_l thm
+R12079:12090 add <> add_cancel_l thm
+R12105:12116 add <> add_cancel_r thm
+R12105:12116 add <> add_cancel_r thm
+prf 12146:12166 <> add_cancel_four_third
+R12189:12191 def <> nat ind
+binder 12177:12177 <> x:150
+binder 12179:12179 <> y:151
+binder 12181:12181 <> z:152
+binder 12183:12183 <> w:153
+binder 12185:12185 <> v:154
+R12233:12236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12213:12215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12197:12200 def <> :::x_'+'_x not
+R12212:12212 def <> :::x_'+'_x not
+R12196:12196 add <> x:150 var
+R12202:12205 def <> :::x_'+'_x not
+R12211:12211 def <> :::x_'+'_x not
+R12201:12201 add <> y:151 var
+R12207:12209 def <> :::x_'+'_x not
+R12206:12206 add <> z:152 var
+R12210:12210 add <> w:153 var
+R12217:12220 def <> :::x_'+'_x not
+R12232:12232 def <> :::x_'+'_x not
+R12216:12216 add <> x:150 var
+R12222:12225 def <> :::x_'+'_x not
+R12231:12231 def <> :::x_'+'_x not
+R12221:12221 add <> y:151 var
+R12227:12229 def <> :::x_'+'_x not
+R12226:12226 add <> z:152 var
+R12230:12230 add <> v:154 var
+R12238:12240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12237:12237 add <> w:153 var
+R12241:12241 add <> v:154 var
+R12279:12290 add <> add_cancel_l thm
+R12279:12290 add <> add_cancel_l thm
+R12305:12316 add <> add_cancel_l thm
+R12305:12316 add <> add_cancel_l thm
+R12331:12342 add <> add_cancel_l thm
+R12331:12342 add <> add_cancel_l thm
+prf 12372:12392 <> add_cancel_four_outer
+R12413:12415 def <> nat ind
+binder 12403:12403 <> x:155
+binder 12405:12405 <> y:156
+binder 12407:12407 <> z:157
+binder 12409:12409 <> w:158
+R12445:12448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12431:12433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12421:12424 def <> :::x_'+'_x not
+R12430:12430 def <> :::x_'+'_x not
+R12420:12420 add <> x:155 var
+R12426:12428 def <> :::x_'+'_x not
+R12425:12425 add <> y:156 var
+R12429:12429 add <> z:157 var
+R12435:12438 def <> :::x_'+'_x not
+R12444:12444 def <> :::x_'+'_x not
+R12434:12434 add <> w:158 var
+R12440:12442 def <> :::x_'+'_x not
+R12439:12439 add <> y:156 var
+R12443:12443 add <> z:157 var
+R12450:12452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12449:12449 add <> x:155 var
+R12453:12453 add <> w:158 var
+R12489:12500 add <> add_cancel_r thm
+R12489:12500 add <> add_cancel_r thm
+prf 12530:12545 <> add_eq_three_iff
+R12562:12564 def <> nat ind
+binder 12556:12556 <> x:159
+binder 12558:12558 <> y:160
+R12588:12594 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12574:12576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12570:12572 def <> :::x_'+'_x not
+R12569:12569 add <> x:159 var
+R12573:12573 add <> y:160 var
+R12577:12577 def <> S constr
+R12580:12580 def <> S constr
+R12583:12583 def <> S constr
+R12585:12585 def <> O constr
+R12595:12595 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12620:12626 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12601:12604 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12597:12599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12596:12596 add <> x:159 var
+R12600:12600 def <> O constr
+R12606:12608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12605:12605 add <> y:160 var
+R12609:12609 def <> S constr
+R12612:12612 def <> S constr
+R12615:12615 def <> S constr
+R12617:12617 def <> O constr
+R12627:12627 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12650:12656 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12635:12638 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12629:12631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12628:12628 add <> x:159 var
+R12632:12632 def <> S constr
+R12634:12634 def <> O constr
+R12640:12642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12639:12639 add <> y:160 var
+R12643:12643 def <> S constr
+R12646:12646 def <> S constr
+R12648:12648 def <> O constr
+R12657:12657 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12680:12687 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12712:12712 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12669:12672 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12659:12661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12658:12658 add <> x:159 var
+R12662:12662 def <> S constr
+R12665:12665 def <> S constr
+R12667:12667 def <> O constr
+R12674:12676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12673:12673 add <> y:160 var
+R12677:12677 def <> S constr
+R12679:12679 def <> O constr
+R12703:12706 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12689:12691 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12688:12688 add <> x:159 var
+R12692:12692 def <> S constr
+R12695:12695 def <> S constr
+R12698:12698 def <> S constr
+R12700:12700 def <> O constr
+R12708:12710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12707:12707 add <> y:160 var
+R12711:12711 def <> O constr
+R12909:12922 add <> add_eq_two_iff thm
+R12909:12922 add <> add_eq_two_iff thm
+prf 13604:13617 <> add_eq_three_l
+R13634:13636 def <> nat ind
+binder 13628:13628 <> x:161
+binder 13630:13630 <> y:162
+R13660:13665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13646:13648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13642:13644 def <> :::x_'+'_x not
+R13641:13641 add <> x:161 var
+R13645:13645 add <> y:162 var
+R13649:13649 def <> S constr
+R13652:13652 def <> S constr
+R13655:13655 def <> S constr
+R13657:13657 def <> O constr
+R13671:13674 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13667:13669 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13666:13666 add <> x:161 var
+R13670:13670 def <> O constr
+R13682:13685 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13676:13678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13675:13675 add <> x:161 var
+R13679:13679 def <> S constr
+R13681:13681 def <> O constr
+R13697:13700 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13687:13689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13686:13686 add <> x:161 var
+R13690:13690 def <> S constr
+R13693:13693 def <> S constr
+R13695:13695 def <> O constr
+R13702:13704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13701:13701 add <> x:161 var
+R13705:13705 def <> S constr
+R13708:13708 def <> S constr
+R13711:13711 def <> S constr
+R13713:13713 def <> O constr
+R13747:13762 add <> add_eq_three_iff thm
+R13747:13762 add <> add_eq_three_iff thm
+prf 13977:13990 <> add_eq_three_r
+R14007:14009 def <> nat ind
+binder 14001:14001 <> x:163
+binder 14003:14003 <> y:164
+R14033:14038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14019:14021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14015:14017 def <> :::x_'+'_x not
+R14014:14014 add <> x:163 var
+R14018:14018 add <> y:164 var
+R14022:14022 def <> S constr
+R14025:14025 def <> S constr
+R14028:14028 def <> S constr
+R14030:14030 def <> O constr
+R14044:14047 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14040:14042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14039:14039 add <> y:164 var
+R14043:14043 def <> O constr
+R14055:14058 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14049:14051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14048:14048 add <> y:164 var
+R14052:14052 def <> S constr
+R14054:14054 def <> O constr
+R14070:14073 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14060:14062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14059:14059 add <> y:164 var
+R14063:14063 def <> S constr
+R14066:14066 def <> S constr
+R14068:14068 def <> O constr
+R14075:14077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14074:14074 add <> y:164 var
+R14078:14078 def <> S constr
+R14081:14081 def <> S constr
+R14084:14084 def <> S constr
+R14086:14086 def <> O constr
+R14120:14135 add <> add_eq_three_iff thm
+R14120:14135 add <> add_eq_three_iff thm
+prf 14350:14364 <> add_eq_four_iff
+R14381:14383 def <> nat ind
+binder 14375:14375 <> x:165
+binder 14377:14377 <> y:166
+R14411:14417 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14393:14395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14389:14391 def <> :::x_'+'_x not
+R14388:14388 add <> x:165 var
+R14392:14392 add <> y:166 var
+R14396:14396 def <> S constr
+R14399:14399 def <> S constr
+R14402:14402 def <> S constr
+R14405:14405 def <> S constr
+R14407:14407 def <> O constr
+R14418:14418 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14447:14453 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14424:14427 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14420:14422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14419:14419 add <> x:165 var
+R14423:14423 def <> O constr
+R14429:14431 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14428:14428 add <> y:166 var
+R14432:14432 def <> S constr
+R14435:14435 def <> S constr
+R14438:14438 def <> S constr
+R14441:14441 def <> S constr
+R14443:14443 def <> O constr
+R14454:14454 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14481:14487 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14462:14465 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14456:14458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14455:14455 add <> x:165 var
+R14459:14459 def <> S constr
+R14461:14461 def <> O constr
+R14467:14469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14466:14466 add <> y:166 var
+R14470:14470 def <> S constr
+R14473:14473 def <> S constr
+R14476:14476 def <> S constr
+R14478:14478 def <> O constr
+R14488:14488 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14515:14521 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14500:14503 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14490:14492 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14489:14489 add <> x:165 var
+R14493:14493 def <> S constr
+R14496:14496 def <> S constr
+R14498:14498 def <> O constr
+R14505:14507 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14504:14504 add <> y:166 var
+R14508:14508 def <> S constr
+R14511:14511 def <> S constr
+R14513:14513 def <> O constr
+R14522:14522 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14549:14556 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14585:14585 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14538:14541 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14524:14526 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14523:14523 add <> x:165 var
+R14527:14527 def <> S constr
+R14530:14530 def <> S constr
+R14533:14533 def <> S constr
+R14535:14535 def <> O constr
+R14543:14545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14542:14542 add <> y:166 var
+R14546:14546 def <> S constr
+R14548:14548 def <> O constr
+R14576:14579 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14558:14560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14557:14557 add <> x:165 var
+R14561:14561 def <> S constr
+R14564:14564 def <> S constr
+R14567:14567 def <> S constr
+R14570:14570 def <> S constr
+R14572:14572 def <> O constr
+R14581:14583 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14580:14580 add <> y:166 var
+R14584:14584 def <> O constr
+R14782:14797 add <> add_eq_three_iff thm
+R14782:14797 add <> add_eq_three_iff thm
+prf 15703:15715 <> add_eq_four_l
+R15732:15734 def <> nat ind
+binder 15726:15726 <> x:167
+binder 15728:15728 <> y:168
+R15762:15767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15744:15746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15740:15742 def <> :::x_'+'_x not
+R15739:15739 add <> x:167 var
+R15743:15743 add <> y:168 var
+R15747:15747 def <> S constr
+R15750:15750 def <> S constr
+R15753:15753 def <> S constr
+R15756:15756 def <> S constr
+R15758:15758 def <> O constr
+R15773:15776 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15769:15771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15768:15768 add <> x:167 var
+R15772:15772 def <> O constr
+R15784:15787 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15778:15780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15777:15777 add <> x:167 var
+R15781:15781 def <> S constr
+R15783:15783 def <> O constr
+R15799:15804 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15789:15791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15788:15788 add <> x:167 var
+R15792:15792 def <> S constr
+R15795:15795 def <> S constr
+R15797:15797 def <> O constr
+R15820:15823 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15806:15808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15805:15805 add <> x:167 var
+R15809:15809 def <> S constr
+R15812:15812 def <> S constr
+R15815:15815 def <> S constr
+R15817:15817 def <> O constr
+R15825:15827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15824:15824 add <> x:167 var
+R15828:15828 def <> S constr
+R15831:15831 def <> S constr
+R15834:15834 def <> S constr
+R15837:15837 def <> S constr
+R15839:15839 def <> O constr
+R15874:15888 add <> add_eq_four_iff thm
+R15874:15888 add <> add_eq_four_iff thm
+prf 16176:16188 <> add_eq_four_r
+R16205:16207 def <> nat ind
+binder 16199:16199 <> x:169
+binder 16201:16201 <> y:170
+R16235:16240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16217:16219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16213:16215 def <> :::x_'+'_x not
+R16212:16212 add <> x:169 var
+R16216:16216 add <> y:170 var
+R16220:16220 def <> S constr
+R16223:16223 def <> S constr
+R16226:16226 def <> S constr
+R16229:16229 def <> S constr
+R16231:16231 def <> O constr
+R16246:16249 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16242:16244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16241:16241 add <> y:170 var
+R16245:16245 def <> O constr
+R16257:16260 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16251:16253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16250:16250 add <> y:170 var
+R16254:16254 def <> S constr
+R16256:16256 def <> O constr
+R16272:16277 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16262:16264 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16261:16261 add <> y:170 var
+R16265:16265 def <> S constr
+R16268:16268 def <> S constr
+R16270:16270 def <> O constr
+R16293:16296 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R16279:16281 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16278:16278 add <> y:170 var
+R16282:16282 def <> S constr
+R16285:16285 def <> S constr
+R16288:16288 def <> S constr
+R16290:16290 def <> O constr
+R16298:16300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16297:16297 add <> y:170 var
+R16301:16301 def <> S constr
+R16304:16304 def <> S constr
+R16307:16307 def <> S constr
+R16310:16310 def <> S constr
+R16312:16312 def <> O constr
+R16347:16361 add <> add_eq_four_iff thm
+R16347:16361 add <> add_eq_four_iff thm
+prf 16649:16671 <> add_self_eq_three_false
+R16686:16688 def <> nat ind
+binder 16682:16682 <> x:171
+R16712:16715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16698:16700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16694:16696 def <> :::x_'+'_x not
+R16693:16693 add <> x:171 var
+R16697:16697 add <> x:171 var
+R16701:16701 def <> S constr
+R16704:16704 def <> S constr
+R16707:16707 def <> S constr
+R16709:16709 def <> O constr
+R16716:16720 Coq.Init.Logic <> False ind
+R16756:16769 add <> add_eq_three_l thm
+R16756:16769 add <> add_eq_three_l thm
+prf 17062:17081 <> add_self_eq_four_iff
+R17096:17098 def <> nat ind
+binder 17092:17092 <> x:172
+R17126:17130 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17108:17110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17104:17106 def <> :::x_'+'_x not
+R17103:17103 add <> x:172 var
+R17107:17107 add <> x:172 var
+R17111:17111 def <> S constr
+R17114:17114 def <> S constr
+R17117:17117 def <> S constr
+R17120:17120 def <> S constr
+R17122:17122 def <> O constr
+R17132:17134 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17131:17131 add <> x:172 var
+R17135:17135 def <> S constr
+R17138:17138 def <> S constr
+R17140:17140 def <> O constr
+R17198:17210 add <> add_eq_four_l thm
+R17198:17210 add <> add_eq_four_l thm
+prf 17594:17616 <> add_triple_eq_three_iff
+R17631:17633 def <> nat ind
+binder 17627:17627 <> x:173
+R17663:17667 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17649:17651 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17639:17642 def <> :::x_'+'_x not
+R17648:17648 def <> :::x_'+'_x not
+R17638:17638 add <> x:173 var
+R17644:17646 def <> :::x_'+'_x not
+R17643:17643 add <> x:173 var
+R17647:17647 add <> x:173 var
+R17652:17652 def <> S constr
+R17655:17655 def <> S constr
+R17658:17658 def <> S constr
+R17660:17660 def <> O constr
+R17669:17671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17668:17668 add <> x:173 var
+R17672:17672 def <> S constr
+R17674:17674 def <> O constr
+R17731:17744 add <> add_eq_three_l thm
+R17750:17752 def <> :::x_'+'_x not
+R17731:17744 add <> add_eq_three_l thm
+R17750:17752 def <> :::x_'+'_x not
+prf 18067:18085 <> add_triple_eq_O_iff
+R18100:18102 def <> nat ind
+binder 18096:18096 <> x:174
+R18122:18126 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18118:18120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18108:18111 def <> :::x_'+'_x not
+R18117:18117 def <> :::x_'+'_x not
+R18107:18107 add <> x:174 var
+R18113:18115 def <> :::x_'+'_x not
+R18112:18112 add <> x:174 var
+R18116:18116 add <> x:174 var
+R18121:18121 def <> O constr
+R18128:18130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18127:18127 add <> x:174 var
+R18131:18131 def <> O constr
+R18182:18189 add <> add_eq_O thm
+R18182:18189 add <> add_eq_O thm
+prf 18290:18305 <> add_succ_three_l
+R18322:18324 def <> nat ind
+binder 18316:18316 <> x:175
+binder 18318:18318 <> y:176
+R18344:18346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18340:18342 def <> :::x_'+'_x not
+R18329:18329 def <> S constr
+R18332:18332 def <> S constr
+R18335:18335 def <> S constr
+R18337:18337 add <> x:175 var
+R18343:18343 add <> y:176 var
+R18347:18347 def <> S constr
+R18350:18350 def <> S constr
+R18353:18353 def <> S constr
+R18357:18359 def <> :::x_'+'_x not
+R18356:18356 add <> x:175 var
+R18360:18360 add <> y:176 var
+R18395:18404 add <> add_succ_l thm
+R18395:18404 add <> add_succ_l thm
+R18395:18404 add <> add_succ_l thm
+R18416:18425 add <> add_succ_l thm
+R18416:18425 add <> add_succ_l thm
+R18416:18425 add <> add_succ_l thm
+R18437:18446 add <> add_succ_l thm
+R18437:18446 add <> add_succ_l thm
+R18437:18446 add <> add_succ_l thm
+prf 18475:18490 <> add_succ_three_r
+R18507:18509 def <> nat ind
+binder 18501:18501 <> x:177
+binder 18503:18503 <> y:178
+R18529:18531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18515:18517 def <> :::x_'+'_x not
+R18514:18514 add <> x:177 var
+R18518:18518 def <> S constr
+R18521:18521 def <> S constr
+R18524:18524 def <> S constr
+R18526:18526 add <> y:178 var
+R18532:18532 def <> S constr
+R18535:18535 def <> S constr
+R18538:18538 def <> S constr
+R18542:18544 def <> :::x_'+'_x not
+R18541:18541 add <> x:177 var
+R18545:18545 add <> y:178 var
+R18580:18589 add <> add_succ_r thm
+R18580:18589 add <> add_succ_r thm
+R18580:18589 add <> add_succ_r thm
+R18601:18610 add <> add_succ_r thm
+R18601:18610 add <> add_succ_r thm
+R18601:18610 add <> add_succ_r thm
+R18622:18631 add <> add_succ_r thm
+R18622:18631 add <> add_succ_r thm
+R18622:18631 add <> add_succ_r thm
+prf 18660:18673 <> add_three_succ
+R18692:18694 def <> nat ind
+binder 18684:18684 <> x:179
+binder 18686:18686 <> y:180
+binder 18688:18688 <> z:181
+R18716:18718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18699:18699 def <> :::x_'+'_x not
+R18709:18712 def <> :::x_'+'_x not
+R18703:18705 def <> :::x_'+'_x not
+R18700:18700 def <> S constr
+R18702:18702 add <> x:179 var
+R18706:18706 def <> S constr
+R18708:18708 add <> y:180 var
+R18713:18713 def <> S constr
+R18715:18715 add <> z:181 var
+R18719:18719 def <> S constr
+R18722:18722 def <> S constr
+R18725:18725 def <> S constr
+R18728:18728 def <> :::x_'+'_x not
+R18734:18737 def <> :::x_'+'_x not
+R18730:18732 def <> :::x_'+'_x not
+R18729:18729 add <> x:179 var
+R18733:18733 add <> y:180 var
+R18738:18738 add <> z:181 var
+R18775:18787 add <> add_succ_succ thm
+R18775:18787 add <> add_succ_succ thm
+R18775:18787 add <> add_succ_succ thm
+R18799:18808 add <> add_succ_l thm
+R18799:18808 add <> add_succ_l thm
+R18799:18808 add <> add_succ_l thm
+R18820:18829 add <> add_succ_l thm
+R18820:18829 add <> add_succ_l thm
+R18820:18829 add <> add_succ_l thm
+R18841:18850 add <> add_succ_r thm
+R18841:18850 add <> add_succ_r thm
+R18841:18850 add <> add_succ_r thm
+prf 18879:18892 <> add_assoc_four
+R18913:18915 def <> nat ind
+binder 18903:18903 <> x:182
+binder 18905:18905 <> y:183
+binder 18907:18907 <> z:184
+binder 18909:18909 <> w:185
+R18937:18939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18921:18924 def <> :::x_'+'_x not
+R18936:18936 def <> :::x_'+'_x not
+R18920:18920 add <> x:182 var
+R18926:18929 def <> :::x_'+'_x not
+R18935:18935 def <> :::x_'+'_x not
+R18925:18925 add <> y:183 var
+R18931:18933 def <> :::x_'+'_x not
+R18930:18930 add <> z:184 var
+R18934:18934 add <> w:185 var
+R18940:18940 def <> :::x_'+'_x not
+R18952:18955 def <> :::x_'+'_x not
+R18941:18941 def <> :::x_'+'_x not
+R18947:18950 def <> :::x_'+'_x not
+R18943:18945 def <> :::x_'+'_x not
+R18942:18942 add <> x:182 var
+R18946:18946 add <> y:183 var
+R18951:18951 add <> z:184 var
+R18956:18956 add <> w:185 var
+R18992:19000 add <> add_assoc thm
+R18992:19000 add <> add_assoc thm
+R18992:19000 add <> add_assoc thm
+R19012:19020 add <> add_assoc thm
+R19012:19020 add <> add_assoc thm
+R19012:19020 add <> add_assoc thm
+prf 19049:19066 <> add_left_comm_four
+R19087:19089 def <> nat ind
+binder 19077:19077 <> x:186
+binder 19079:19079 <> y:187
+binder 19081:19081 <> z:188
+binder 19083:19083 <> w:189
+R19111:19113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19095:19098 def <> :::x_'+'_x not
+R19110:19110 def <> :::x_'+'_x not
+R19094:19094 add <> x:186 var
+R19100:19103 def <> :::x_'+'_x not
+R19109:19109 def <> :::x_'+'_x not
+R19099:19099 add <> y:187 var
+R19105:19107 def <> :::x_'+'_x not
+R19104:19104 add <> z:188 var
+R19108:19108 add <> w:189 var
+R19115:19118 def <> :::x_'+'_x not
+R19130:19130 def <> :::x_'+'_x not
+R19114:19114 add <> x:186 var
+R19120:19123 def <> :::x_'+'_x not
+R19129:19129 def <> :::x_'+'_x not
+R19119:19119 add <> z:188 var
+R19125:19127 def <> :::x_'+'_x not
+R19124:19124 add <> y:187 var
+R19128:19128 add <> w:189 var
+R19167:19179 add <> add_left_comm thm
+R19167:19179 add <> add_left_comm thm
+R19167:19179 add <> add_left_comm thm
+prf 19215:19237 <> add_cancel_nested_l_iff
+R19258:19260 def <> nat ind
+binder 19248:19248 <> x:190
+binder 19250:19250 <> y:191
+binder 19252:19252 <> z:192
+binder 19254:19254 <> w:193
+R19290:19294 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19276:19278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19266:19269 def <> :::x_'+'_x not
+R19275:19275 def <> :::x_'+'_x not
+R19265:19265 add <> x:190 var
+R19271:19273 def <> :::x_'+'_x not
+R19270:19270 add <> y:191 var
+R19274:19274 add <> z:192 var
+R19280:19283 def <> :::x_'+'_x not
+R19289:19289 def <> :::x_'+'_x not
+R19279:19279 add <> x:190 var
+R19285:19287 def <> :::x_'+'_x not
+R19284:19284 add <> y:191 var
+R19288:19288 add <> w:193 var
+R19296:19298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19295:19295 add <> z:192 var
+R19299:19299 add <> w:193 var
+R19343:19361 add <> add_cancel_nested_l thm
+R19343:19361 add <> add_cancel_nested_l thm
+prf 19419:19441 <> add_cancel_nested_m_iff
+R19462:19464 def <> nat ind
+binder 19452:19452 <> x:194
+binder 19454:19454 <> y:195
+binder 19456:19456 <> z:196
+binder 19458:19458 <> w:197
+R19494:19498 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19480:19482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19470:19473 def <> :::x_'+'_x not
+R19479:19479 def <> :::x_'+'_x not
+R19469:19469 add <> x:194 var
+R19475:19477 def <> :::x_'+'_x not
+R19474:19474 add <> y:195 var
+R19478:19478 add <> z:196 var
+R19484:19487 def <> :::x_'+'_x not
+R19493:19493 def <> :::x_'+'_x not
+R19483:19483 add <> x:194 var
+R19489:19491 def <> :::x_'+'_x not
+R19488:19488 add <> w:197 var
+R19492:19492 add <> z:196 var
+R19500:19502 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19499:19499 add <> y:195 var
+R19503:19503 add <> w:197 var
+R19547:19565 add <> add_cancel_nested_m thm
+R19547:19565 add <> add_cancel_nested_m thm
+prf 19623:19645 <> add_cancel_nested_r_iff
+R19666:19668 def <> nat ind
+binder 19656:19656 <> x:198
+binder 19658:19658 <> y:199
+binder 19660:19660 <> z:200
+binder 19662:19662 <> w:201
+R19698:19702 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19684:19686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19673:19673 def <> :::x_'+'_x not
+R19679:19682 def <> :::x_'+'_x not
+R19675:19677 def <> :::x_'+'_x not
+R19674:19674 add <> x:198 var
+R19678:19678 add <> y:199 var
+R19683:19683 add <> z:200 var
+R19687:19687 def <> :::x_'+'_x not
+R19693:19696 def <> :::x_'+'_x not
+R19689:19691 def <> :::x_'+'_x not
+R19688:19688 add <> x:198 var
+R19692:19692 add <> w:201 var
+R19697:19697 add <> z:200 var
+R19704:19706 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19703:19703 add <> y:199 var
+R19707:19707 add <> w:201 var
+R19751:19769 add <> add_cancel_nested_r thm
+R19751:19769 add <> add_cancel_nested_r thm
+prf 19827:19853 <> add_cancel_nested_outer_iff
+R19874:19876 def <> nat ind
+binder 19864:19864 <> x:202
+binder 19866:19866 <> y:203
+binder 19868:19868 <> z:204
+binder 19870:19870 <> w:205
+R19906:19910 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19892:19894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19881:19881 def <> :::x_'+'_x not
+R19887:19890 def <> :::x_'+'_x not
+R19883:19885 def <> :::x_'+'_x not
+R19882:19882 add <> x:202 var
+R19886:19886 add <> y:203 var
+R19891:19891 add <> z:204 var
+R19895:19895 def <> :::x_'+'_x not
+R19901:19904 def <> :::x_'+'_x not
+R19897:19899 def <> :::x_'+'_x not
+R19896:19896 add <> w:205 var
+R19900:19900 add <> y:203 var
+R19905:19905 add <> z:204 var
+R19912:19914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19911:19911 add <> x:202 var
+R19915:19915 add <> w:205 var
+R19959:19981 add <> add_cancel_nested_outer thm
+R19959:19981 add <> add_cancel_nested_outer thm
+prf 20039:20063 <> add_cancel_four_first_iff
+R20086:20088 def <> nat ind
+binder 20074:20074 <> x:206
+binder 20076:20076 <> y:207
+binder 20078:20078 <> z:208
+binder 20080:20080 <> w:209
+binder 20082:20082 <> v:210
+R20130:20134 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20110:20112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20094:20097 def <> :::x_'+'_x not
+R20109:20109 def <> :::x_'+'_x not
+R20093:20093 add <> x:206 var
+R20099:20102 def <> :::x_'+'_x not
+R20108:20108 def <> :::x_'+'_x not
+R20098:20098 add <> y:207 var
+R20104:20106 def <> :::x_'+'_x not
+R20103:20103 add <> z:208 var
+R20107:20107 add <> w:209 var
+R20114:20117 def <> :::x_'+'_x not
+R20129:20129 def <> :::x_'+'_x not
+R20113:20113 add <> x:206 var
+R20119:20122 def <> :::x_'+'_x not
+R20128:20128 def <> :::x_'+'_x not
+R20118:20118 add <> v:210 var
+R20124:20126 def <> :::x_'+'_x not
+R20123:20123 add <> z:208 var
+R20127:20127 add <> w:209 var
+R20136:20138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20135:20135 add <> y:207 var
+R20139:20139 add <> v:210 var
+R20185:20205 add <> add_cancel_four_first thm
+R20185:20205 add <> add_cancel_four_first thm
+prf 20263:20288 <> add_cancel_four_second_iff
+R20311:20313 def <> nat ind
+binder 20299:20299 <> x:211
+binder 20301:20301 <> y:212
+binder 20303:20303 <> z:213
+binder 20305:20305 <> w:214
+binder 20307:20307 <> v:215
+R20355:20359 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20335:20337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20319:20322 def <> :::x_'+'_x not
+R20334:20334 def <> :::x_'+'_x not
+R20318:20318 add <> x:211 var
+R20324:20327 def <> :::x_'+'_x not
+R20333:20333 def <> :::x_'+'_x not
+R20323:20323 add <> y:212 var
+R20329:20331 def <> :::x_'+'_x not
+R20328:20328 add <> z:213 var
+R20332:20332 add <> w:214 var
+R20339:20342 def <> :::x_'+'_x not
+R20354:20354 def <> :::x_'+'_x not
+R20338:20338 add <> x:211 var
+R20344:20347 def <> :::x_'+'_x not
+R20353:20353 def <> :::x_'+'_x not
+R20343:20343 add <> y:212 var
+R20349:20351 def <> :::x_'+'_x not
+R20348:20348 add <> v:215 var
+R20352:20352 add <> w:214 var
+R20361:20363 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20360:20360 add <> z:213 var
+R20364:20364 add <> v:215 var
+R20410:20431 add <> add_cancel_four_second thm
+R20410:20431 add <> add_cancel_four_second thm
+prf 20489:20513 <> add_cancel_four_third_iff
+R20536:20538 def <> nat ind
+binder 20524:20524 <> x:216
+binder 20526:20526 <> y:217
+binder 20528:20528 <> z:218
+binder 20530:20530 <> w:219
+binder 20532:20532 <> v:220
+R20580:20584 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20560:20562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20544:20547 def <> :::x_'+'_x not
+R20559:20559 def <> :::x_'+'_x not
+R20543:20543 add <> x:216 var
+R20549:20552 def <> :::x_'+'_x not
+R20558:20558 def <> :::x_'+'_x not
+R20548:20548 add <> y:217 var
+R20554:20556 def <> :::x_'+'_x not
+R20553:20553 add <> z:218 var
+R20557:20557 add <> w:219 var
+R20564:20567 def <> :::x_'+'_x not
+R20579:20579 def <> :::x_'+'_x not
+R20563:20563 add <> x:216 var
+R20569:20572 def <> :::x_'+'_x not
+R20578:20578 def <> :::x_'+'_x not
+R20568:20568 add <> y:217 var
+R20574:20576 def <> :::x_'+'_x not
+R20573:20573 add <> z:218 var
+R20577:20577 add <> v:220 var
+R20586:20588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20585:20585 add <> w:219 var
+R20589:20589 add <> v:220 var
+R20635:20655 add <> add_cancel_four_third thm
+R20635:20655 add <> add_cancel_four_third thm
+prf 20713:20737 <> add_cancel_four_outer_iff
+R20758:20760 def <> nat ind
+binder 20748:20748 <> x:221
+binder 20750:20750 <> y:222
+binder 20752:20752 <> z:223
+binder 20754:20754 <> w:224
+R20790:20794 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20776:20778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20766:20769 def <> :::x_'+'_x not
+R20775:20775 def <> :::x_'+'_x not
+R20765:20765 add <> x:221 var
+R20771:20773 def <> :::x_'+'_x not
+R20770:20770 add <> y:222 var
+R20774:20774 add <> z:223 var
+R20780:20783 def <> :::x_'+'_x not
+R20789:20789 def <> :::x_'+'_x not
+R20779:20779 add <> w:224 var
+R20785:20787 def <> :::x_'+'_x not
+R20784:20784 add <> y:222 var
+R20788:20788 add <> z:223 var
+R20796:20798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20795:20795 add <> x:221 var
+R20799:20799 add <> w:224 var
+R20843:20863 add <> add_cancel_four_outer thm
+R20843:20863 add <> add_cancel_four_outer thm
+prf 20921:20948 <> add_succ_cancel_nested_l_iff
+R20969:20971 def <> nat ind
+binder 20959:20959 <> x:225
+binder 20961:20961 <> y:226
+binder 20963:20963 <> z:227
+binder 20965:20965 <> w:228
+R21005:21009 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20989:20991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20979:20982 def <> :::x_'+'_x not
+R20988:20988 def <> :::x_'+'_x not
+R20976:20976 def <> S constr
+R20978:20978 add <> x:225 var
+R20984:20986 def <> :::x_'+'_x not
+R20983:20983 add <> y:226 var
+R20987:20987 add <> z:227 var
+R20995:20998 def <> :::x_'+'_x not
+R21004:21004 def <> :::x_'+'_x not
+R20992:20992 def <> S constr
+R20994:20994 add <> x:225 var
+R21000:21002 def <> :::x_'+'_x not
+R20999:20999 add <> y:226 var
+R21003:21003 add <> w:228 var
+R21011:21013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21010:21010 add <> z:227 var
+R21014:21014 add <> w:228 var
+R21058:21076 add <> add_cancel_nested_l thm
+R21058:21076 add <> add_cancel_nested_l thm
+prf 21134:21161 <> add_succ_cancel_nested_r_iff
+R21182:21184 def <> nat ind
+binder 21172:21172 <> x:229
+binder 21174:21174 <> y:230
+binder 21176:21176 <> z:231
+binder 21178:21178 <> w:232
+R21218:21222 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21202:21204 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21190:21193 def <> :::x_'+'_x not
+R21201:21201 def <> :::x_'+'_x not
+R21189:21189 add <> x:229 var
+R21197:21199 def <> :::x_'+'_x not
+R21194:21194 def <> S constr
+R21196:21196 add <> y:230 var
+R21200:21200 add <> z:231 var
+R21206:21209 def <> :::x_'+'_x not
+R21217:21217 def <> :::x_'+'_x not
+R21205:21205 add <> x:229 var
+R21213:21215 def <> :::x_'+'_x not
+R21210:21210 def <> S constr
+R21212:21212 add <> w:232 var
+R21216:21216 add <> z:231 var
+R21224:21226 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21223:21223 add <> y:230 var
+R21227:21227 add <> w:232 var
+R21284:21295 add <> add_cancel_l thm
+R21284:21295 add <> add_cancel_l thm
+R21312:21328 add <> add_succ_cancel_l thm
+R21312:21328 add <> add_succ_cancel_l thm
+prf 21403:21417 <> add_eq_five_iff
+R21434:21436 def <> nat ind
+binder 21428:21428 <> x:233
+binder 21430:21430 <> y:234
+R21468:21474 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21446:21448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21442:21444 def <> :::x_'+'_x not
+R21441:21441 add <> x:233 var
+R21445:21445 add <> y:234 var
+R21449:21449 def <> S constr
+R21452:21452 def <> S constr
+R21455:21455 def <> S constr
+R21458:21458 def <> S constr
+R21461:21461 def <> S constr
+R21463:21463 def <> O constr
+R21475:21475 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21508:21514 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21481:21484 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21477:21479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21476:21476 add <> x:233 var
+R21480:21480 def <> O constr
+R21486:21488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21485:21485 add <> y:234 var
+R21489:21489 def <> S constr
+R21492:21492 def <> S constr
+R21495:21495 def <> S constr
+R21498:21498 def <> S constr
+R21501:21501 def <> S constr
+R21503:21503 def <> O constr
+R21515:21515 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21546:21552 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21523:21526 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21517:21519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21516:21516 add <> x:233 var
+R21520:21520 def <> S constr
+R21522:21522 def <> O constr
+R21528:21530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21527:21527 add <> y:234 var
+R21531:21531 def <> S constr
+R21534:21534 def <> S constr
+R21537:21537 def <> S constr
+R21540:21540 def <> S constr
+R21542:21542 def <> O constr
+R21553:21553 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21584:21590 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21565:21568 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21555:21557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21554:21554 add <> x:233 var
+R21558:21558 def <> S constr
+R21561:21561 def <> S constr
+R21563:21563 def <> O constr
+R21570:21572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21569:21569 add <> y:234 var
+R21573:21573 def <> S constr
+R21576:21576 def <> S constr
+R21579:21579 def <> S constr
+R21581:21581 def <> O constr
+R21591:21591 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21622:21628 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21607:21610 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21593:21595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21592:21592 add <> x:233 var
+R21596:21596 def <> S constr
+R21599:21599 def <> S constr
+R21602:21602 def <> S constr
+R21604:21604 def <> O constr
+R21612:21614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21611:21611 add <> y:234 var
+R21615:21615 def <> S constr
+R21618:21618 def <> S constr
+R21620:21620 def <> O constr
+R21629:21629 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21660:21667 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21700:21700 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21649:21652 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21631:21633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21630:21630 add <> x:233 var
+R21634:21634 def <> S constr
+R21637:21637 def <> S constr
+R21640:21640 def <> S constr
+R21643:21643 def <> S constr
+R21645:21645 def <> O constr
+R21654:21656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21653:21653 add <> y:234 var
+R21657:21657 def <> S constr
+R21659:21659 def <> O constr
+R21691:21694 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21669:21671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21668:21668 add <> x:233 var
+R21672:21672 def <> S constr
+R21675:21675 def <> S constr
+R21678:21678 def <> S constr
+R21681:21681 def <> S constr
+R21684:21684 def <> S constr
+R21686:21686 def <> O constr
+R21696:21698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21695:21695 add <> y:234 var
+R21699:21699 def <> O constr
+R21897:21911 add <> add_eq_four_iff thm
+R21897:21911 add <> add_eq_four_iff thm
+prf 23055:23067 <> add_eq_five_l
+R23084:23086 def <> nat ind
+binder 23078:23078 <> x:235
+binder 23080:23080 <> y:236
+R23118:23123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23096:23098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23092:23094 def <> :::x_'+'_x not
+R23091:23091 add <> x:235 var
+R23095:23095 add <> y:236 var
+R23099:23099 def <> S constr
+R23102:23102 def <> S constr
+R23105:23105 def <> S constr
+R23108:23108 def <> S constr
+R23111:23111 def <> S constr
+R23113:23113 def <> O constr
+R23129:23132 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23125:23127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23124:23124 add <> x:235 var
+R23128:23128 def <> O constr
+R23140:23143 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23134:23136 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23133:23133 add <> x:235 var
+R23137:23137 def <> S constr
+R23139:23139 def <> O constr
+R23155:23158 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23145:23147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23144:23144 add <> x:235 var
+R23148:23148 def <> S constr
+R23151:23151 def <> S constr
+R23153:23153 def <> O constr
+R23174:23179 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23160:23162 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23159:23159 add <> x:235 var
+R23163:23163 def <> S constr
+R23166:23166 def <> S constr
+R23169:23169 def <> S constr
+R23171:23171 def <> O constr
+R23199:23202 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23181:23183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23180:23180 add <> x:235 var
+R23184:23184 def <> S constr
+R23187:23187 def <> S constr
+R23190:23190 def <> S constr
+R23193:23193 def <> S constr
+R23195:23195 def <> O constr
+R23204:23206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23203:23203 add <> x:235 var
+R23207:23207 def <> S constr
+R23210:23210 def <> S constr
+R23213:23213 def <> S constr
+R23216:23216 def <> S constr
+R23219:23219 def <> S constr
+R23221:23221 def <> O constr
+R23257:23271 add <> add_eq_five_iff thm
+R23257:23271 add <> add_eq_five_iff thm
+prf 23642:23654 <> add_eq_five_r
+R23671:23673 def <> nat ind
+binder 23665:23665 <> x:237
+binder 23667:23667 <> y:238
+R23705:23710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23683:23685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23679:23681 def <> :::x_'+'_x not
+R23678:23678 add <> x:237 var
+R23682:23682 add <> y:238 var
+R23686:23686 def <> S constr
+R23689:23689 def <> S constr
+R23692:23692 def <> S constr
+R23695:23695 def <> S constr
+R23698:23698 def <> S constr
+R23700:23700 def <> O constr
+R23716:23719 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23712:23714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23711:23711 add <> y:238 var
+R23715:23715 def <> O constr
+R23727:23730 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23721:23723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23720:23720 add <> y:238 var
+R23724:23724 def <> S constr
+R23726:23726 def <> O constr
+R23742:23745 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23732:23734 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23731:23731 add <> y:238 var
+R23735:23735 def <> S constr
+R23738:23738 def <> S constr
+R23740:23740 def <> O constr
+R23761:23766 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23747:23749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23746:23746 add <> y:238 var
+R23750:23750 def <> S constr
+R23753:23753 def <> S constr
+R23756:23756 def <> S constr
+R23758:23758 def <> O constr
+R23786:23789 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23768:23770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23767:23767 add <> y:238 var
+R23771:23771 def <> S constr
+R23774:23774 def <> S constr
+R23777:23777 def <> S constr
+R23780:23780 def <> S constr
+R23782:23782 def <> O constr
+R23791:23793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23790:23790 add <> y:238 var
+R23794:23794 def <> S constr
+R23797:23797 def <> S constr
+R23800:23800 def <> S constr
+R23803:23803 def <> S constr
+R23806:23806 def <> S constr
+R23808:23808 def <> O constr
+R23844:23858 add <> add_eq_five_iff thm
+R23844:23858 add <> add_eq_five_iff thm
+prf 24229:24250 <> add_self_eq_five_false
+R24265:24267 def <> nat ind
+binder 24261:24261 <> x:239
+R24299:24302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24277:24279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24273:24275 def <> :::x_'+'_x not
+R24272:24272 add <> x:239 var
+R24276:24276 add <> x:239 var
+R24280:24280 def <> S constr
+R24283:24283 def <> S constr
+R24286:24286 def <> S constr
+R24289:24289 def <> S constr
+R24292:24292 def <> S constr
+R24294:24294 def <> O constr
+R24303:24307 Coq.Init.Logic <> False ind
+R24343:24355 add <> add_eq_five_l thm
+R24343:24355 add <> add_eq_five_l thm
+prf 24770:24788 <> add_self_eq_six_iff
+R24803:24805 def <> nat ind
+binder 24799:24799 <> x:240
+R24841:24845 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R24815:24817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24811:24813 def <> :::x_'+'_x not
+R24810:24810 add <> x:240 var
+R24814:24814 add <> x:240 var
+R24818:24818 def <> S constr
+R24821:24821 def <> S constr
+R24824:24824 def <> S constr
+R24827:24827 def <> S constr
+R24830:24830 def <> S constr
+R24833:24833 def <> S constr
+R24835:24835 def <> O constr
+R24847:24849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24846:24846 add <> x:240 var
+R24850:24850 def <> S constr
+R24853:24853 def <> S constr
+R24856:24856 def <> S constr
+R24858:24858 def <> O constr
+R24977:24989 add <> add_succ_succ thm
+R24977:24989 add <> add_succ_succ thm
+R24977:24989 add <> add_succ_succ thm
+R25031:25050 add <> add_self_eq_four_iff thm
+R25031:25050 add <> add_self_eq_four_iff thm
+prf 25147:25153 <> add_6_l
+R25168:25170 def <> nat ind
+binder 25164:25164 <> x:241
+R25202:25204 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25198:25200 def <> :::x_'+'_x not
+R25175:25175 def <> S constr
+R25178:25178 def <> S constr
+R25181:25181 def <> S constr
+R25184:25184 def <> S constr
+R25187:25187 def <> S constr
+R25190:25190 def <> S constr
+R25192:25192 def <> O constr
+R25201:25201 add <> x:241 var
+R25205:25205 def <> S constr
+R25208:25208 def <> S constr
+R25211:25211 def <> S constr
+R25214:25214 def <> S constr
+R25217:25217 def <> S constr
+R25220:25220 def <> S constr
+R25222:25222 add <> x:241 var
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+R25264:25273 add <> add_succ_l thm
+prf 25302:25308 <> add_6_r
+R25323:25325 def <> nat ind
+binder 25319:25319 <> x:242
+R25357:25359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25331:25333 def <> :::x_'+'_x not
+R25330:25330 add <> x:242 var
+R25334:25334 def <> S constr
+R25337:25337 def <> S constr
+R25340:25340 def <> S constr
+R25343:25343 def <> S constr
+R25346:25346 def <> S constr
+R25349:25349 def <> S constr
+R25351:25351 def <> O constr
+R25360:25360 def <> S constr
+R25363:25363 def <> S constr
+R25366:25366 def <> S constr
+R25369:25369 def <> S constr
+R25372:25372 def <> S constr
+R25375:25375 def <> S constr
+R25377:25377 add <> x:242 var
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25419:25428 add <> add_succ_r thm
+R25440:25446 add <> add_0_r thm
+R25440:25446 add <> add_0_r thm
+R25440:25446 add <> add_0_r thm
+prf 25475:25481 <> add_7_l
+R25496:25498 def <> nat ind
+binder 25492:25492 <> x:243
+R25534:25536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25530:25532 def <> :::x_'+'_x not
+R25503:25503 def <> S constr
+R25506:25506 def <> S constr
+R25509:25509 def <> S constr
+R25512:25512 def <> S constr
+R25515:25515 def <> S constr
+R25518:25518 def <> S constr
+R25521:25521 def <> S constr
+R25523:25523 def <> O constr
+R25533:25533 add <> x:243 var
+R25537:25537 def <> S constr
+R25540:25540 def <> S constr
+R25543:25543 def <> S constr
+R25546:25546 def <> S constr
+R25549:25549 def <> S constr
+R25552:25552 def <> S constr
+R25555:25555 def <> S constr
+R25557:25557 add <> x:243 var
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+R25600:25609 add <> add_succ_l thm
+prf 25638:25644 <> add_7_r
+R25659:25661 def <> nat ind
+binder 25655:25655 <> x:244
+R25697:25699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25667:25669 def <> :::x_'+'_x not
+R25666:25666 add <> x:244 var
+R25670:25670 def <> S constr
+R25673:25673 def <> S constr
+R25676:25676 def <> S constr
+R25679:25679 def <> S constr
+R25682:25682 def <> S constr
+R25685:25685 def <> S constr
+R25688:25688 def <> S constr
+R25690:25690 def <> O constr
+R25700:25700 def <> S constr
+R25703:25703 def <> S constr
+R25706:25706 def <> S constr
+R25709:25709 def <> S constr
+R25712:25712 def <> S constr
+R25715:25715 def <> S constr
+R25718:25718 def <> S constr
+R25720:25720 add <> x:244 var
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25763:25772 add <> add_succ_r thm
+R25784:25790 add <> add_0_r thm
+R25784:25790 add <> add_0_r thm
+R25784:25790 add <> add_0_r thm
+prf 25819:25825 <> add_8_l
+R25840:25842 def <> nat ind
+binder 25836:25836 <> x:245
+R25882:25884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25878:25880 def <> :::x_'+'_x not
+R25847:25847 def <> S constr
+R25850:25850 def <> S constr
+R25853:25853 def <> S constr
+R25856:25856 def <> S constr
+R25859:25859 def <> S constr
+R25862:25862 def <> S constr
+R25865:25865 def <> S constr
+R25868:25868 def <> S constr
+R25870:25870 def <> O constr
+R25881:25881 add <> x:245 var
+R25885:25885 def <> S constr
+R25888:25888 def <> S constr
+R25891:25891 def <> S constr
+R25894:25894 def <> S constr
+R25897:25897 def <> S constr
+R25900:25900 def <> S constr
+R25903:25903 def <> S constr
+R25906:25906 def <> S constr
+R25908:25908 add <> x:245 var
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+R25952:25961 add <> add_succ_l thm
+prf 25990:25996 <> add_8_r
+R26011:26013 def <> nat ind
+binder 26007:26007 <> x:246
+R26053:26055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26019:26021 def <> :::x_'+'_x not
+R26018:26018 add <> x:246 var
+R26022:26022 def <> S constr
+R26025:26025 def <> S constr
+R26028:26028 def <> S constr
+R26031:26031 def <> S constr
+R26034:26034 def <> S constr
+R26037:26037 def <> S constr
+R26040:26040 def <> S constr
+R26043:26043 def <> S constr
+R26045:26045 def <> O constr
+R26056:26056 def <> S constr
+R26059:26059 def <> S constr
+R26062:26062 def <> S constr
+R26065:26065 def <> S constr
+R26068:26068 def <> S constr
+R26071:26071 def <> S constr
+R26074:26074 def <> S constr
+R26077:26077 def <> S constr
+R26079:26079 add <> x:246 var
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26123:26132 add <> add_succ_r thm
+R26144:26150 add <> add_0_r thm
+R26144:26150 add <> add_0_r thm
+R26144:26150 add <> add_0_r thm
+prf 26179:26185 <> add_9_l
+R26200:26202 def <> nat ind
+binder 26196:26196 <> x:247
+R26246:26250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26242:26244 def <> :::x_'+'_x not
+R26207:26207 def <> S constr
+R26210:26210 def <> S constr
+R26213:26213 def <> S constr
+R26216:26216 def <> S constr
+R26219:26219 def <> S constr
+R26222:26222 def <> S constr
+R26225:26225 def <> S constr
+R26228:26228 def <> S constr
+R26231:26231 def <> S constr
+R26233:26233 def <> O constr
+R26245:26245 add <> x:247 var
+R26251:26251 def <> S constr
+R26254:26254 def <> S constr
+R26257:26257 def <> S constr
+R26260:26260 def <> S constr
+R26263:26263 def <> S constr
+R26266:26266 def <> S constr
+R26269:26269 def <> S constr
+R26272:26272 def <> S constr
+R26275:26275 def <> S constr
+R26277:26277 add <> x:247 var
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+R26322:26331 add <> add_succ_l thm
+prf 26360:26366 <> add_9_r
+R26381:26383 def <> nat ind
+binder 26377:26377 <> x:248
+R26427:26431 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26389:26391 def <> :::x_'+'_x not
+R26388:26388 add <> x:248 var
+R26392:26392 def <> S constr
+R26395:26395 def <> S constr
+R26398:26398 def <> S constr
+R26401:26401 def <> S constr
+R26404:26404 def <> S constr
+R26407:26407 def <> S constr
+R26410:26410 def <> S constr
+R26413:26413 def <> S constr
+R26416:26416 def <> S constr
+R26418:26418 def <> O constr
+R26432:26432 def <> S constr
+R26435:26435 def <> S constr
+R26438:26438 def <> S constr
+R26441:26441 def <> S constr
+R26444:26444 def <> S constr
+R26447:26447 def <> S constr
+R26450:26450 def <> S constr
+R26453:26453 def <> S constr
+R26456:26456 def <> S constr
+R26458:26458 add <> x:248 var
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26503:26512 add <> add_succ_r thm
+R26524:26530 add <> add_0_r thm
+R26524:26530 add <> add_0_r thm
+R26524:26530 add <> add_0_r thm
+prf 26559:26566 <> add_10_l
+R26581:26583 def <> nat ind
+binder 26577:26577 <> x:249
+R26631:26635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26627:26629 def <> :::x_'+'_x not
+R26588:26588 def <> S constr
+R26591:26591 def <> S constr
+R26594:26594 def <> S constr
+R26597:26597 def <> S constr
+R26600:26600 def <> S constr
+R26603:26603 def <> S constr
+R26606:26606 def <> S constr
+R26609:26609 def <> S constr
+R26612:26612 def <> S constr
+R26615:26615 def <> S constr
+R26617:26617 def <> O constr
+R26630:26630 add <> x:249 var
+R26636:26636 def <> S constr
+R26639:26639 def <> S constr
+R26642:26642 def <> S constr
+R26645:26645 def <> S constr
+R26648:26648 def <> S constr
+R26651:26651 def <> S constr
+R26654:26654 def <> S constr
+R26657:26657 def <> S constr
+R26660:26660 def <> S constr
+R26663:26663 def <> S constr
+R26665:26665 add <> x:249 var
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+R26711:26720 add <> add_succ_l thm
+prf 26749:26756 <> add_10_r
+R26771:26773 def <> nat ind
+binder 26767:26767 <> x:250
+R26821:26825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26779:26781 def <> :::x_'+'_x not
+R26778:26778 add <> x:250 var
+R26782:26782 def <> S constr
+R26785:26785 def <> S constr
+R26788:26788 def <> S constr
+R26791:26791 def <> S constr
+R26794:26794 def <> S constr
+R26797:26797 def <> S constr
+R26800:26800 def <> S constr
+R26803:26803 def <> S constr
+R26806:26806 def <> S constr
+R26809:26809 def <> S constr
+R26811:26811 def <> O constr
+R26826:26826 def <> S constr
+R26829:26829 def <> S constr
+R26832:26832 def <> S constr
+R26835:26835 def <> S constr
+R26838:26838 def <> S constr
+R26841:26841 def <> S constr
+R26844:26844 def <> S constr
+R26847:26847 def <> S constr
+R26850:26850 def <> S constr
+R26853:26853 def <> S constr
+R26855:26855 add <> x:250 var
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26901:26910 add <> add_succ_r thm
+R26922:26928 add <> add_0_r thm
+R26922:26928 add <> add_0_r thm
+R26922:26928 add <> add_0_r thm
+prf 26957:26964 <> add_11_l
+R26979:26981 def <> nat ind
+binder 26975:26975 <> x:251
+R27033:27037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27029:27031 def <> :::x_'+'_x not
+R26986:26986 def <> S constr
+R26989:26989 def <> S constr
+R26992:26992 def <> S constr
+R26995:26995 def <> S constr
+R26998:26998 def <> S constr
+R27001:27001 def <> S constr
+R27004:27004 def <> S constr
+R27007:27007 def <> S constr
+R27010:27010 def <> S constr
+R27013:27013 def <> S constr
+R27016:27016 def <> S constr
+R27018:27018 def <> O constr
+R27032:27032 add <> x:251 var
+R27038:27038 def <> S constr
+R27041:27041 def <> S constr
+R27044:27044 def <> S constr
+R27047:27047 def <> S constr
+R27050:27050 def <> S constr
+R27053:27053 def <> S constr
+R27056:27056 def <> S constr
+R27059:27059 def <> S constr
+R27062:27062 def <> S constr
+R27065:27065 def <> S constr
+R27068:27068 def <> S constr
+R27070:27070 add <> x:251 var
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+R27117:27126 add <> add_succ_l thm
+prf 27155:27162 <> add_11_r
+R27177:27179 def <> nat ind
+binder 27173:27173 <> x:252
+R27231:27235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27185:27187 def <> :::x_'+'_x not
+R27184:27184 add <> x:252 var
+R27188:27188 def <> S constr
+R27191:27191 def <> S constr
+R27194:27194 def <> S constr
+R27197:27197 def <> S constr
+R27200:27200 def <> S constr
+R27203:27203 def <> S constr
+R27206:27206 def <> S constr
+R27209:27209 def <> S constr
+R27212:27212 def <> S constr
+R27215:27215 def <> S constr
+R27218:27218 def <> S constr
+R27220:27220 def <> O constr
+R27236:27236 def <> S constr
+R27239:27239 def <> S constr
+R27242:27242 def <> S constr
+R27245:27245 def <> S constr
+R27248:27248 def <> S constr
+R27251:27251 def <> S constr
+R27254:27254 def <> S constr
+R27257:27257 def <> S constr
+R27260:27260 def <> S constr
+R27263:27263 def <> S constr
+R27266:27266 def <> S constr
+R27268:27268 add <> x:252 var
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27315:27324 add <> add_succ_r thm
+R27336:27342 add <> add_0_r thm
+R27336:27342 add <> add_0_r thm
+R27336:27342 add <> add_0_r thm
+prf 27371:27378 <> add_12_l
+R27393:27395 def <> nat ind
+binder 27389:27389 <> x:253
+R27451:27455 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27447:27449 def <> :::x_'+'_x not
+R27400:27400 def <> S constr
+R27403:27403 def <> S constr
+R27406:27406 def <> S constr
+R27409:27409 def <> S constr
+R27412:27412 def <> S constr
+R27415:27415 def <> S constr
+R27418:27418 def <> S constr
+R27421:27421 def <> S constr
+R27424:27424 def <> S constr
+R27427:27427 def <> S constr
+R27430:27430 def <> S constr
+R27433:27433 def <> S constr
+R27435:27435 def <> O constr
+R27450:27450 add <> x:253 var
+R27456:27456 def <> S constr
+R27459:27459 def <> S constr
+R27462:27462 def <> S constr
+R27465:27465 def <> S constr
+R27468:27468 def <> S constr
+R27471:27471 def <> S constr
+R27474:27474 def <> S constr
+R27477:27477 def <> S constr
+R27480:27480 def <> S constr
+R27483:27483 def <> S constr
+R27486:27486 def <> S constr
+R27489:27489 def <> S constr
+R27491:27491 add <> x:253 var
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+R27539:27548 add <> add_succ_l thm
+prf 27577:27584 <> add_12_r
+R27599:27601 def <> nat ind
+binder 27595:27595 <> x:254
+R27657:27661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27607:27609 def <> :::x_'+'_x not
+R27606:27606 add <> x:254 var
+R27610:27610 def <> S constr
+R27613:27613 def <> S constr
+R27616:27616 def <> S constr
+R27619:27619 def <> S constr
+R27622:27622 def <> S constr
+R27625:27625 def <> S constr
+R27628:27628 def <> S constr
+R27631:27631 def <> S constr
+R27634:27634 def <> S constr
+R27637:27637 def <> S constr
+R27640:27640 def <> S constr
+R27643:27643 def <> S constr
+R27645:27645 def <> O constr
+R27662:27662 def <> S constr
+R27665:27665 def <> S constr
+R27668:27668 def <> S constr
+R27671:27671 def <> S constr
+R27674:27674 def <> S constr
+R27677:27677 def <> S constr
+R27680:27680 def <> S constr
+R27683:27683 def <> S constr
+R27686:27686 def <> S constr
+R27689:27689 def <> S constr
+R27692:27692 def <> S constr
+R27695:27695 def <> S constr
+R27697:27697 add <> x:254 var
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27745:27754 add <> add_succ_r thm
+R27766:27772 add <> add_0_r thm
+R27766:27772 add <> add_0_r thm
+R27766:27772 add <> add_0_r thm
+prf 27801:27808 <> add_13_l
+R27823:27825 def <> nat ind
+binder 27819:27819 <> x:255
+R27885:27889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27881:27883 def <> :::x_'+'_x not
+R27830:27830 def <> S constr
+R27833:27833 def <> S constr
+R27836:27836 def <> S constr
+R27839:27839 def <> S constr
+R27842:27842 def <> S constr
+R27845:27845 def <> S constr
+R27848:27848 def <> S constr
+R27851:27851 def <> S constr
+R27854:27854 def <> S constr
+R27857:27857 def <> S constr
+R27860:27860 def <> S constr
+R27863:27863 def <> S constr
+R27866:27866 def <> S constr
+R27868:27868 def <> O constr
+R27884:27884 add <> x:255 var
+R27890:27890 def <> S constr
+R27893:27893 def <> S constr
+R27896:27896 def <> S constr
+R27899:27899 def <> S constr
+R27902:27902 def <> S constr
+R27905:27905 def <> S constr
+R27908:27908 def <> S constr
+R27911:27911 def <> S constr
+R27914:27914 def <> S constr
+R27917:27917 def <> S constr
+R27920:27920 def <> S constr
+R27923:27923 def <> S constr
+R27926:27926 def <> S constr
+R27928:27928 add <> x:255 var
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+R27977:27986 add <> add_succ_l thm
+prf 28015:28022 <> add_13_r
+R28037:28039 def <> nat ind
+binder 28033:28033 <> x:256
+R28099:28103 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28045:28047 def <> :::x_'+'_x not
+R28044:28044 add <> x:256 var
+R28048:28048 def <> S constr
+R28051:28051 def <> S constr
+R28054:28054 def <> S constr
+R28057:28057 def <> S constr
+R28060:28060 def <> S constr
+R28063:28063 def <> S constr
+R28066:28066 def <> S constr
+R28069:28069 def <> S constr
+R28072:28072 def <> S constr
+R28075:28075 def <> S constr
+R28078:28078 def <> S constr
+R28081:28081 def <> S constr
+R28084:28084 def <> S constr
+R28086:28086 def <> O constr
+R28104:28104 def <> S constr
+R28107:28107 def <> S constr
+R28110:28110 def <> S constr
+R28113:28113 def <> S constr
+R28116:28116 def <> S constr
+R28119:28119 def <> S constr
+R28122:28122 def <> S constr
+R28125:28125 def <> S constr
+R28128:28128 def <> S constr
+R28131:28131 def <> S constr
+R28134:28134 def <> S constr
+R28137:28137 def <> S constr
+R28140:28140 def <> S constr
+R28142:28142 add <> x:256 var
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28191:28200 add <> add_succ_r thm
+R28212:28218 add <> add_0_r thm
+R28212:28218 add <> add_0_r thm
+R28212:28218 add <> add_0_r thm
+prf 28247:28254 <> add_14_l
+R28269:28271 def <> nat ind
+binder 28265:28265 <> x:257
+R28335:28339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28331:28333 def <> :::x_'+'_x not
+R28276:28276 def <> S constr
+R28279:28279 def <> S constr
+R28282:28282 def <> S constr
+R28285:28285 def <> S constr
+R28288:28288 def <> S constr
+R28291:28291 def <> S constr
+R28294:28294 def <> S constr
+R28297:28297 def <> S constr
+R28300:28300 def <> S constr
+R28303:28303 def <> S constr
+R28306:28306 def <> S constr
+R28309:28309 def <> S constr
+R28312:28312 def <> S constr
+R28315:28315 def <> S constr
+R28317:28317 def <> O constr
+R28334:28334 add <> x:257 var
+R28340:28340 def <> S constr
+R28343:28343 def <> S constr
+R28346:28346 def <> S constr
+R28349:28349 def <> S constr
+R28352:28352 def <> S constr
+R28355:28355 def <> S constr
+R28358:28358 def <> S constr
+R28361:28361 def <> S constr
+R28364:28364 def <> S constr
+R28367:28367 def <> S constr
+R28370:28370 def <> S constr
+R28373:28373 def <> S constr
+R28376:28376 def <> S constr
+R28379:28379 def <> S constr
+R28381:28381 add <> x:257 var
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+R28431:28440 add <> add_succ_l thm
+prf 28469:28476 <> add_14_r
+R28491:28493 def <> nat ind
+binder 28487:28487 <> x:258
+R28557:28561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28499:28501 def <> :::x_'+'_x not
+R28498:28498 add <> x:258 var
+R28502:28502 def <> S constr
+R28505:28505 def <> S constr
+R28508:28508 def <> S constr
+R28511:28511 def <> S constr
+R28514:28514 def <> S constr
+R28517:28517 def <> S constr
+R28520:28520 def <> S constr
+R28523:28523 def <> S constr
+R28526:28526 def <> S constr
+R28529:28529 def <> S constr
+R28532:28532 def <> S constr
+R28535:28535 def <> S constr
+R28538:28538 def <> S constr
+R28541:28541 def <> S constr
+R28543:28543 def <> O constr
+R28562:28562 def <> S constr
+R28565:28565 def <> S constr
+R28568:28568 def <> S constr
+R28571:28571 def <> S constr
+R28574:28574 def <> S constr
+R28577:28577 def <> S constr
+R28580:28580 def <> S constr
+R28583:28583 def <> S constr
+R28586:28586 def <> S constr
+R28589:28589 def <> S constr
+R28592:28592 def <> S constr
+R28595:28595 def <> S constr
+R28598:28598 def <> S constr
+R28601:28601 def <> S constr
+R28603:28603 add <> x:258 var
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28653:28662 add <> add_succ_r thm
+R28674:28680 add <> add_0_r thm
+R28674:28680 add <> add_0_r thm
+R28674:28680 add <> add_0_r thm
+prf 28709:28716 <> add_15_l
+R28731:28733 def <> nat ind
+binder 28727:28727 <> x:259
+R28801:28805 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28797:28799 def <> :::x_'+'_x not
+R28738:28738 def <> S constr
+R28741:28741 def <> S constr
+R28744:28744 def <> S constr
+R28747:28747 def <> S constr
+R28750:28750 def <> S constr
+R28753:28753 def <> S constr
+R28756:28756 def <> S constr
+R28759:28759 def <> S constr
+R28762:28762 def <> S constr
+R28765:28765 def <> S constr
+R28768:28768 def <> S constr
+R28771:28771 def <> S constr
+R28774:28774 def <> S constr
+R28777:28777 def <> S constr
+R28780:28780 def <> S constr
+R28782:28782 def <> O constr
+R28800:28800 add <> x:259 var
+R28806:28806 def <> S constr
+R28809:28809 def <> S constr
+R28812:28812 def <> S constr
+R28815:28815 def <> S constr
+R28818:28818 def <> S constr
+R28821:28821 def <> S constr
+R28824:28824 def <> S constr
+R28827:28827 def <> S constr
+R28830:28830 def <> S constr
+R28833:28833 def <> S constr
+R28836:28836 def <> S constr
+R28839:28839 def <> S constr
+R28842:28842 def <> S constr
+R28845:28845 def <> S constr
+R28848:28848 def <> S constr
+R28850:28850 add <> x:259 var
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+R28901:28910 add <> add_succ_l thm
+prf 28939:28946 <> add_15_r
+R28961:28963 def <> nat ind
+binder 28957:28957 <> x:260
+R29031:29035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28969:28971 def <> :::x_'+'_x not
+R28968:28968 add <> x:260 var
+R28972:28972 def <> S constr
+R28975:28975 def <> S constr
+R28978:28978 def <> S constr
+R28981:28981 def <> S constr
+R28984:28984 def <> S constr
+R28987:28987 def <> S constr
+R28990:28990 def <> S constr
+R28993:28993 def <> S constr
+R28996:28996 def <> S constr
+R28999:28999 def <> S constr
+R29002:29002 def <> S constr
+R29005:29005 def <> S constr
+R29008:29008 def <> S constr
+R29011:29011 def <> S constr
+R29014:29014 def <> S constr
+R29016:29016 def <> O constr
+R29036:29036 def <> S constr
+R29039:29039 def <> S constr
+R29042:29042 def <> S constr
+R29045:29045 def <> S constr
+R29048:29048 def <> S constr
+R29051:29051 def <> S constr
+R29054:29054 def <> S constr
+R29057:29057 def <> S constr
+R29060:29060 def <> S constr
+R29063:29063 def <> S constr
+R29066:29066 def <> S constr
+R29069:29069 def <> S constr
+R29072:29072 def <> S constr
+R29075:29075 def <> S constr
+R29078:29078 def <> S constr
+R29080:29080 add <> x:260 var
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29131:29140 add <> add_succ_r thm
+R29152:29158 add <> add_0_r thm
+R29152:29158 add <> add_0_r thm
+R29152:29158 add <> add_0_r thm
+prf 29187:29200 <> add_succ_assoc
+R29219:29221 def <> nat ind
+binder 29211:29211 <> x:261
+binder 29213:29213 <> y:262
+binder 29215:29215 <> z:263
+R29239:29241 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29229:29232 def <> :::x_'+'_x not
+R29238:29238 def <> :::x_'+'_x not
+R29226:29226 def <> S constr
+R29228:29228 add <> x:261 var
+R29234:29236 def <> :::x_'+'_x not
+R29233:29233 add <> y:262 var
+R29237:29237 add <> z:263 var
+R29242:29242 def <> :::x_'+'_x not
+R29250:29253 def <> :::x_'+'_x not
+R29246:29248 def <> :::x_'+'_x not
+R29243:29243 def <> S constr
+R29245:29245 add <> x:261 var
+R29249:29249 add <> y:262 var
+R29254:29254 add <> z:263 var
+R29288:29296 add <> add_assoc thm
+R29288:29296 add <> add_assoc thm
+R29288:29296 add <> add_assoc thm
+prf 29325:29344 <> add_left_cancel_succ
+R29363:29365 def <> nat ind
+binder 29355:29355 <> x:264
+binder 29357:29357 <> y:265
+binder 29359:29359 <> z:266
+R29387:29390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29377:29379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29373:29375 def <> :::x_'+'_x not
+R29370:29370 def <> S constr
+R29372:29372 add <> x:264 var
+R29376:29376 add <> y:265 var
+R29383:29385 def <> :::x_'+'_x not
+R29380:29380 def <> S constr
+R29382:29382 add <> x:264 var
+R29386:29386 add <> z:266 var
+R29392:29394 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29391:29391 add <> y:265 var
+R29395:29395 add <> z:266 var
+R29430:29441 add <> add_cancel_l thm
+R29444:29444 def <> S constr
+R29430:29441 add <> add_cancel_l thm
+R29444:29444 def <> S constr
+prf 29477:29494 <> add_eq_O_three_iff
+R29513:29515 def <> nat ind
+binder 29505:29505 <> x:267
+binder 29507:29507 <> y:268
+binder 29509:29509 <> z:269
+R29535:29539 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R29531:29533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29520:29520 def <> :::x_'+'_x not
+R29526:29529 def <> :::x_'+'_x not
+R29522:29524 def <> :::x_'+'_x not
+R29521:29521 add <> x:267 var
+R29525:29525 add <> y:268 var
+R29530:29530 add <> z:269 var
+R29534:29534 def <> O constr
+R29545:29548 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29541:29543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29540:29540 add <> x:267 var
+R29544:29544 def <> O constr
+R29554:29557 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29550:29552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29549:29549 add <> y:268 var
+R29553:29553 def <> O constr
+R29559:29561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29558:29558 add <> z:269 var
+R29562:29562 def <> O constr
+R29617:29628 add <> add_eq_O_iff thm
+R29617:29628 add <> add_eq_O_iff thm
+R29672:29683 add <> add_eq_O_iff thm
+R29672:29683 add <> add_eq_O_iff thm
+prf 29825:29841 <> add_eq_O_four_iff
+R29862:29864 def <> nat ind
+binder 29852:29852 <> x:270
+binder 29854:29854 <> y:271
+binder 29856:29856 <> z:272
+binder 29858:29858 <> w:273
+R29890:29894 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R29886:29888 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29869:29869 def <> :::x_'+'_x not
+R29881:29884 def <> :::x_'+'_x not
+R29870:29870 def <> :::x_'+'_x not
+R29876:29879 def <> :::x_'+'_x not
+R29872:29874 def <> :::x_'+'_x not
+R29871:29871 add <> x:270 var
+R29875:29875 add <> y:271 var
+R29880:29880 add <> z:272 var
+R29885:29885 add <> w:273 var
+R29889:29889 def <> O constr
+R29900:29903 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29896:29898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29895:29895 add <> x:270 var
+R29899:29899 def <> O constr
+R29909:29912 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29905:29907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29904:29904 add <> y:271 var
+R29908:29908 def <> O constr
+R29918:29921 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29914:29916 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29913:29913 add <> z:272 var
+R29917:29917 def <> O constr
+R29923:29925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29922:29922 add <> w:273 var
+R29926:29926 def <> O constr
+R29983:29994 add <> add_eq_O_iff thm
+R29983:29994 add <> add_eq_O_iff thm
+R30039:30056 add <> add_eq_O_three_iff thm
+R30039:30056 add <> add_eq_O_three_iff thm
+prf 30214:30230 <> add_eq_O_five_iff
+R30253:30255 def <> nat ind
+binder 30241:30241 <> x:274
+binder 30243:30243 <> y:275
+binder 30245:30245 <> z:276
+binder 30247:30247 <> w:277
+binder 30249:30249 <> v:278
+R30287:30293 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R30283:30285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30260:30260 def <> :::x_'+'_x not
+R30278:30281 def <> :::x_'+'_x not
+R30261:30261 def <> :::x_'+'_x not
+R30273:30276 def <> :::x_'+'_x not
+R30262:30262 def <> :::x_'+'_x not
+R30268:30271 def <> :::x_'+'_x not
+R30264:30266 def <> :::x_'+'_x not
+R30263:30263 add <> x:274 var
+R30267:30267 add <> y:275 var
+R30272:30272 add <> z:276 var
+R30277:30277 add <> w:277 var
+R30282:30282 add <> v:278 var
+R30286:30286 def <> O constr
+R30299:30302 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30295:30297 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30294:30294 add <> x:274 var
+R30298:30298 def <> O constr
+R30308:30311 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30304:30306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30303:30303 add <> y:275 var
+R30307:30307 def <> O constr
+R30317:30320 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30313:30315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30312:30312 add <> z:276 var
+R30316:30316 def <> O constr
+R30326:30329 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30322:30324 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30321:30321 add <> w:277 var
+R30325:30325 def <> O constr
+R30331:30333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30330:30330 add <> v:278 var
+R30334:30334 def <> O constr
+R30393:30404 add <> add_eq_O_iff thm
+R30393:30404 add <> add_eq_O_iff thm
+R30450:30466 add <> add_eq_O_four_iff thm
+R30450:30466 add <> add_eq_O_four_iff thm
+prf 30640:30655 <> add_eq_O_six_iff
+R30680:30682 def <> nat ind
+binder 30666:30666 <> x:279
+binder 30668:30668 <> y:280
+binder 30670:30670 <> z:281
+binder 30672:30672 <> w:282
+binder 30674:30674 <> v:283
+binder 30676:30676 <> u:284
+R30720:30726 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R30716:30718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30687:30687 def <> :::x_'+'_x not
+R30711:30714 def <> :::x_'+'_x not
+R30688:30688 def <> :::x_'+'_x not
+R30706:30709 def <> :::x_'+'_x not
+R30689:30689 def <> :::x_'+'_x not
+R30701:30704 def <> :::x_'+'_x not
+R30690:30690 def <> :::x_'+'_x not
+R30696:30699 def <> :::x_'+'_x not
+R30692:30694 def <> :::x_'+'_x not
+R30691:30691 add <> x:279 var
+R30695:30695 add <> y:280 var
+R30700:30700 add <> z:281 var
+R30705:30705 add <> w:282 var
+R30710:30710 add <> v:283 var
+R30715:30715 add <> u:284 var
+R30719:30719 def <> O constr
+R30732:30735 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30728:30730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30727:30727 add <> x:279 var
+R30731:30731 def <> O constr
+R30741:30744 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30737:30739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30736:30736 add <> y:280 var
+R30740:30740 def <> O constr
+R30750:30753 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30746:30748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30745:30745 add <> z:281 var
+R30749:30749 def <> O constr
+R30759:30762 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30755:30757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30754:30754 add <> w:282 var
+R30758:30758 def <> O constr
+R30768:30771 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30764:30766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30763:30763 add <> v:283 var
+R30767:30767 def <> O constr
+R30773:30775 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30772:30772 add <> u:284 var
+R30776:30776 def <> O constr
+R30837:30848 add <> add_eq_O_iff thm
+R30837:30848 add <> add_eq_O_iff thm
+R30895:30911 add <> add_eq_O_five_iff thm
+R30895:30911 add <> add_eq_O_five_iff thm
+prf 31101:31118 <> add_eq_O_seven_iff
+R31145:31147 def <> nat ind
+binder 31129:31129 <> x:285
+binder 31131:31131 <> y:286
+binder 31133:31133 <> z:287
+binder 31135:31135 <> w:288
+binder 31137:31137 <> v:289
+binder 31139:31139 <> u:290
+binder 31141:31141 <> t:291
+R31191:31197 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R31187:31189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31152:31152 def <> :::x_'+'_x not
+R31182:31185 def <> :::x_'+'_x not
+R31153:31153 def <> :::x_'+'_x not
+R31177:31180 def <> :::x_'+'_x not
+R31154:31154 def <> :::x_'+'_x not
+R31172:31175 def <> :::x_'+'_x not
+R31155:31155 def <> :::x_'+'_x not
+R31167:31170 def <> :::x_'+'_x not
+R31156:31156 def <> :::x_'+'_x not
+R31162:31165 def <> :::x_'+'_x not
+R31158:31160 def <> :::x_'+'_x not
+R31157:31157 add <> x:285 var
+R31161:31161 add <> y:286 var
+R31166:31166 add <> z:287 var
+R31171:31171 add <> w:288 var
+R31176:31176 add <> v:289 var
+R31181:31181 add <> u:290 var
+R31186:31186 add <> t:291 var
+R31190:31190 def <> O constr
+R31203:31206 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31199:31201 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31198:31198 add <> x:285 var
+R31202:31202 def <> O constr
+R31212:31215 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31208:31210 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31207:31207 add <> y:286 var
+R31211:31211 def <> O constr
+R31221:31224 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31217:31219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31216:31216 add <> z:287 var
+R31220:31220 def <> O constr
+R31230:31233 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31226:31228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31225:31225 add <> w:288 var
+R31229:31229 def <> O constr
+R31239:31242 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31235:31237 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31234:31234 add <> v:289 var
+R31238:31238 def <> O constr
+R31248:31251 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31244:31246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31243:31243 add <> u:290 var
+R31247:31247 def <> O constr
+R31253:31255 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31252:31252 add <> t:291 var
+R31256:31256 def <> O constr
+R31319:31330 add <> add_eq_O_iff thm
+R31319:31330 add <> add_eq_O_iff thm
+R31378:31393 add <> add_eq_O_six_iff thm
+R31378:31393 add <> add_eq_O_six_iff thm
+prf 31599:31614 <> add_eq_O_three_l
+R31633:31635 def <> nat ind
+binder 31625:31625 <> x:292
+binder 31627:31627 <> y:293
+binder 31629:31629 <> z:294
+R31655:31658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31651:31653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31640:31640 def <> :::x_'+'_x not
+R31646:31649 def <> :::x_'+'_x not
+R31642:31644 def <> :::x_'+'_x not
+R31641:31641 add <> x:292 var
+R31645:31645 add <> y:293 var
+R31650:31650 add <> z:294 var
+R31654:31654 def <> O constr
+R31660:31662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31659:31659 add <> x:292 var
+R31663:31663 def <> O constr
+R31697:31714 add <> add_eq_O_three_iff thm
+R31697:31714 add <> add_eq_O_three_iff thm
+prf 31742:31757 <> add_eq_O_three_m
+R31776:31778 def <> nat ind
+binder 31768:31768 <> x:295
+binder 31770:31770 <> y:296
+binder 31772:31772 <> z:297
+R31798:31801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31794:31796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31783:31783 def <> :::x_'+'_x not
+R31789:31792 def <> :::x_'+'_x not
+R31785:31787 def <> :::x_'+'_x not
+R31784:31784 add <> x:295 var
+R31788:31788 add <> y:296 var
+R31793:31793 add <> z:297 var
+R31797:31797 def <> O constr
+R31803:31805 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31802:31802 add <> y:296 var
+R31806:31806 def <> O constr
+R31840:31857 add <> add_eq_O_three_iff thm
+R31840:31857 add <> add_eq_O_three_iff thm
+prf 31885:31900 <> add_eq_O_three_r
+R31919:31921 def <> nat ind
+binder 31911:31911 <> x:298
+binder 31913:31913 <> y:299
+binder 31915:31915 <> z:300
+R31941:31944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31937:31939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31926:31926 def <> :::x_'+'_x not
+R31932:31935 def <> :::x_'+'_x not
+R31928:31930 def <> :::x_'+'_x not
+R31927:31927 add <> x:298 var
+R31931:31931 add <> y:299 var
+R31936:31936 add <> z:300 var
+R31940:31940 def <> O constr
+R31946:31948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31945:31945 add <> z:300 var
+R31949:31949 def <> O constr
+R31983:32000 add <> add_eq_O_three_iff thm
+R31983:32000 add <> add_eq_O_three_iff thm
+prf 32028:32046 <> add_eq_O_four_first
+R32067:32069 def <> nat ind
+binder 32057:32057 <> x:301
+binder 32059:32059 <> y:302
+binder 32061:32061 <> z:303
+binder 32063:32063 <> w:304
+R32095:32098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32091:32093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32074:32074 def <> :::x_'+'_x not
+R32086:32089 def <> :::x_'+'_x not
+R32075:32075 def <> :::x_'+'_x not
+R32081:32084 def <> :::x_'+'_x not
+R32077:32079 def <> :::x_'+'_x not
+R32076:32076 add <> x:301 var
+R32080:32080 add <> y:302 var
+R32085:32085 add <> z:303 var
+R32090:32090 add <> w:304 var
+R32094:32094 def <> O constr
+R32100:32102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32099:32099 add <> x:301 var
+R32103:32103 def <> O constr
+R32139:32155 add <> add_eq_O_four_iff thm
+R32139:32155 add <> add_eq_O_four_iff thm
+prf 32183:32202 <> add_eq_O_four_second
+R32223:32225 def <> nat ind
+binder 32213:32213 <> x:305
+binder 32215:32215 <> y:306
+binder 32217:32217 <> z:307
+binder 32219:32219 <> w:308
+R32251:32254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32247:32249 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32230:32230 def <> :::x_'+'_x not
+R32242:32245 def <> :::x_'+'_x not
+R32231:32231 def <> :::x_'+'_x not
+R32237:32240 def <> :::x_'+'_x not
+R32233:32235 def <> :::x_'+'_x not
+R32232:32232 add <> x:305 var
+R32236:32236 add <> y:306 var
+R32241:32241 add <> z:307 var
+R32246:32246 add <> w:308 var
+R32250:32250 def <> O constr
+R32256:32258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32255:32255 add <> y:306 var
+R32259:32259 def <> O constr
+R32295:32311 add <> add_eq_O_four_iff thm
+R32295:32311 add <> add_eq_O_four_iff thm
+prf 32339:32357 <> add_eq_O_four_third
+R32378:32380 def <> nat ind
+binder 32368:32368 <> x:309
+binder 32370:32370 <> y:310
+binder 32372:32372 <> z:311
+binder 32374:32374 <> w:312
+R32406:32409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32402:32404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32385:32385 def <> :::x_'+'_x not
+R32397:32400 def <> :::x_'+'_x not
+R32386:32386 def <> :::x_'+'_x not
+R32392:32395 def <> :::x_'+'_x not
+R32388:32390 def <> :::x_'+'_x not
+R32387:32387 add <> x:309 var
+R32391:32391 add <> y:310 var
+R32396:32396 add <> z:311 var
+R32401:32401 add <> w:312 var
+R32405:32405 def <> O constr
+R32411:32413 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32410:32410 add <> z:311 var
+R32414:32414 def <> O constr
+R32450:32466 add <> add_eq_O_four_iff thm
+R32450:32466 add <> add_eq_O_four_iff thm
+prf 32494:32513 <> add_eq_O_four_fourth
+R32534:32536 def <> nat ind
+binder 32524:32524 <> x:313
+binder 32526:32526 <> y:314
+binder 32528:32528 <> z:315
+binder 32530:32530 <> w:316
+R32562:32565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32558:32560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32541:32541 def <> :::x_'+'_x not
+R32553:32556 def <> :::x_'+'_x not
+R32542:32542 def <> :::x_'+'_x not
+R32548:32551 def <> :::x_'+'_x not
+R32544:32546 def <> :::x_'+'_x not
+R32543:32543 add <> x:313 var
+R32547:32547 add <> y:314 var
+R32552:32552 add <> z:315 var
+R32557:32557 add <> w:316 var
+R32561:32561 def <> O constr
+R32567:32569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32566:32566 add <> w:316 var
+R32570:32570 def <> O constr
+R32606:32622 add <> add_eq_O_four_iff thm
+R32606:32622 add <> add_eq_O_four_iff thm
+prf 32650:32668 <> add_eq_O_five_first
+R32691:32693 def <> nat ind
+binder 32679:32679 <> x:317
+binder 32681:32681 <> y:318
+binder 32683:32683 <> z:319
+binder 32685:32685 <> w:320
+binder 32687:32687 <> v:321
+R32725:32728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32721:32723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32698:32698 def <> :::x_'+'_x not
+R32716:32719 def <> :::x_'+'_x not
+R32699:32699 def <> :::x_'+'_x not
+R32711:32714 def <> :::x_'+'_x not
+R32700:32700 def <> :::x_'+'_x not
+R32706:32709 def <> :::x_'+'_x not
+R32702:32704 def <> :::x_'+'_x not
+R32701:32701 add <> x:317 var
+R32705:32705 add <> y:318 var
+R32710:32710 add <> z:319 var
+R32715:32715 add <> w:320 var
+R32720:32720 add <> v:321 var
+R32724:32724 def <> O constr
+R32730:32732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32729:32729 add <> x:317 var
+R32733:32733 def <> O constr
+R32771:32787 add <> add_eq_O_five_iff thm
+R32771:32787 add <> add_eq_O_five_iff thm
+prf 32815:32834 <> add_eq_O_five_second
+R32857:32859 def <> nat ind
+binder 32845:32845 <> x:322
+binder 32847:32847 <> y:323
+binder 32849:32849 <> z:324
+binder 32851:32851 <> w:325
+binder 32853:32853 <> v:326
+R32891:32894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32887:32889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32864:32864 def <> :::x_'+'_x not
+R32882:32885 def <> :::x_'+'_x not
+R32865:32865 def <> :::x_'+'_x not
+R32877:32880 def <> :::x_'+'_x not
+R32866:32866 def <> :::x_'+'_x not
+R32872:32875 def <> :::x_'+'_x not
+R32868:32870 def <> :::x_'+'_x not
+R32867:32867 add <> x:322 var
+R32871:32871 add <> y:323 var
+R32876:32876 add <> z:324 var
+R32881:32881 add <> w:325 var
+R32886:32886 add <> v:326 var
+R32890:32890 def <> O constr
+R32896:32898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32895:32895 add <> y:323 var
+R32899:32899 def <> O constr
+R32937:32953 add <> add_eq_O_five_iff thm
+R32937:32953 add <> add_eq_O_five_iff thm
+prf 32981:32999 <> add_eq_O_five_third
+R33022:33024 def <> nat ind
+binder 33010:33010 <> x:327
+binder 33012:33012 <> y:328
+binder 33014:33014 <> z:329
+binder 33016:33016 <> w:330
+binder 33018:33018 <> v:331
+R33056:33059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33052:33054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33029:33029 def <> :::x_'+'_x not
+R33047:33050 def <> :::x_'+'_x not
+R33030:33030 def <> :::x_'+'_x not
+R33042:33045 def <> :::x_'+'_x not
+R33031:33031 def <> :::x_'+'_x not
+R33037:33040 def <> :::x_'+'_x not
+R33033:33035 def <> :::x_'+'_x not
+R33032:33032 add <> x:327 var
+R33036:33036 add <> y:328 var
+R33041:33041 add <> z:329 var
+R33046:33046 add <> w:330 var
+R33051:33051 add <> v:331 var
+R33055:33055 def <> O constr
+R33061:33063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33060:33060 add <> z:329 var
+R33064:33064 def <> O constr
+R33102:33118 add <> add_eq_O_five_iff thm
+R33102:33118 add <> add_eq_O_five_iff thm
+prf 33146:33165 <> add_eq_O_five_fourth
+R33188:33190 def <> nat ind
+binder 33176:33176 <> x:332
+binder 33178:33178 <> y:333
+binder 33180:33180 <> z:334
+binder 33182:33182 <> w:335
+binder 33184:33184 <> v:336
+R33222:33225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33218:33220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33195:33195 def <> :::x_'+'_x not
+R33213:33216 def <> :::x_'+'_x not
+R33196:33196 def <> :::x_'+'_x not
+R33208:33211 def <> :::x_'+'_x not
+R33197:33197 def <> :::x_'+'_x not
+R33203:33206 def <> :::x_'+'_x not
+R33199:33201 def <> :::x_'+'_x not
+R33198:33198 add <> x:332 var
+R33202:33202 add <> y:333 var
+R33207:33207 add <> z:334 var
+R33212:33212 add <> w:335 var
+R33217:33217 add <> v:336 var
+R33221:33221 def <> O constr
+R33227:33229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33226:33226 add <> w:335 var
+R33230:33230 def <> O constr
+R33268:33284 add <> add_eq_O_five_iff thm
+R33268:33284 add <> add_eq_O_five_iff thm
+prf 33312:33330 <> add_eq_O_five_fifth
+R33353:33355 def <> nat ind
+binder 33341:33341 <> x:337
+binder 33343:33343 <> y:338
+binder 33345:33345 <> z:339
+binder 33347:33347 <> w:340
+binder 33349:33349 <> v:341
+R33387:33390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33383:33385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33360:33360 def <> :::x_'+'_x not
+R33378:33381 def <> :::x_'+'_x not
+R33361:33361 def <> :::x_'+'_x not
+R33373:33376 def <> :::x_'+'_x not
+R33362:33362 def <> :::x_'+'_x not
+R33368:33371 def <> :::x_'+'_x not
+R33364:33366 def <> :::x_'+'_x not
+R33363:33363 add <> x:337 var
+R33367:33367 add <> y:338 var
+R33372:33372 add <> z:339 var
+R33377:33377 add <> w:340 var
+R33382:33382 add <> v:341 var
+R33386:33386 def <> O constr
+R33392:33394 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33391:33391 add <> v:341 var
+R33395:33395 def <> O constr
+R33433:33449 add <> add_eq_O_five_iff thm
+R33433:33449 add <> add_eq_O_five_iff thm
+prf 33477:33494 <> add_eq_O_six_first
+R33519:33521 def <> nat ind
+binder 33505:33505 <> x:342
+binder 33507:33507 <> y:343
+binder 33509:33509 <> z:344
+binder 33511:33511 <> w:345
+binder 33513:33513 <> v:346
+binder 33515:33515 <> u:347
+R33559:33562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33555:33557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33526:33526 def <> :::x_'+'_x not
+R33550:33553 def <> :::x_'+'_x not
+R33527:33527 def <> :::x_'+'_x not
+R33545:33548 def <> :::x_'+'_x not
+R33528:33528 def <> :::x_'+'_x not
+R33540:33543 def <> :::x_'+'_x not
+R33529:33529 def <> :::x_'+'_x not
+R33535:33538 def <> :::x_'+'_x not
+R33531:33533 def <> :::x_'+'_x not
+R33530:33530 add <> x:342 var
+R33534:33534 add <> y:343 var
+R33539:33539 add <> z:344 var
+R33544:33544 add <> w:345 var
+R33549:33549 add <> v:346 var
+R33554:33554 add <> u:347 var
+R33558:33558 def <> O constr
+R33564:33566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33563:33563 add <> x:342 var
+R33567:33567 def <> O constr
+R33607:33622 add <> add_eq_O_six_iff thm
+R33607:33622 add <> add_eq_O_six_iff thm
+prf 33650:33668 <> add_eq_O_six_second
+R33693:33695 def <> nat ind
+binder 33679:33679 <> x:348
+binder 33681:33681 <> y:349
+binder 33683:33683 <> z:350
+binder 33685:33685 <> w:351
+binder 33687:33687 <> v:352
+binder 33689:33689 <> u:353
+R33733:33736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33729:33731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33700:33700 def <> :::x_'+'_x not
+R33724:33727 def <> :::x_'+'_x not
+R33701:33701 def <> :::x_'+'_x not
+R33719:33722 def <> :::x_'+'_x not
+R33702:33702 def <> :::x_'+'_x not
+R33714:33717 def <> :::x_'+'_x not
+R33703:33703 def <> :::x_'+'_x not
+R33709:33712 def <> :::x_'+'_x not
+R33705:33707 def <> :::x_'+'_x not
+R33704:33704 add <> x:348 var
+R33708:33708 add <> y:349 var
+R33713:33713 add <> z:350 var
+R33718:33718 add <> w:351 var
+R33723:33723 add <> v:352 var
+R33728:33728 add <> u:353 var
+R33732:33732 def <> O constr
+R33738:33740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33737:33737 add <> y:349 var
+R33741:33741 def <> O constr
+R33781:33796 add <> add_eq_O_six_iff thm
+R33781:33796 add <> add_eq_O_six_iff thm
+prf 33824:33841 <> add_eq_O_six_third
+R33866:33868 def <> nat ind
+binder 33852:33852 <> x:354
+binder 33854:33854 <> y:355
+binder 33856:33856 <> z:356
+binder 33858:33858 <> w:357
+binder 33860:33860 <> v:358
+binder 33862:33862 <> u:359
+R33906:33909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33902:33904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33873:33873 def <> :::x_'+'_x not
+R33897:33900 def <> :::x_'+'_x not
+R33874:33874 def <> :::x_'+'_x not
+R33892:33895 def <> :::x_'+'_x not
+R33875:33875 def <> :::x_'+'_x not
+R33887:33890 def <> :::x_'+'_x not
+R33876:33876 def <> :::x_'+'_x not
+R33882:33885 def <> :::x_'+'_x not
+R33878:33880 def <> :::x_'+'_x not
+R33877:33877 add <> x:354 var
+R33881:33881 add <> y:355 var
+R33886:33886 add <> z:356 var
+R33891:33891 add <> w:357 var
+R33896:33896 add <> v:358 var
+R33901:33901 add <> u:359 var
+R33905:33905 def <> O constr
+R33911:33913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33910:33910 add <> z:356 var
+R33914:33914 def <> O constr
+R33954:33969 add <> add_eq_O_six_iff thm
+R33954:33969 add <> add_eq_O_six_iff thm
